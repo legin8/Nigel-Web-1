@@ -1,0 +1,42 @@
+header, svg {
+    height: 100px;
+    fill: white;
+    text-align: left;
+
+}
+
+nav {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+h1, h2, h3 {
+    font-family: serif;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+body {
+    margin: 0;
+    background-color: #BF5322;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 20px;
+}
