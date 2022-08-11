@@ -1,16 +1,28 @@
-header, svg {
-    height: 100px;
-    fill: white;
+/* header section */
+header svg , header {
     text-align: left;
-
+    fill: white;
 }
 
+
+/* nav section */
 nav {
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: 400px;
     line-height: 28px;
+}
+
+
+/* main section */
+svg.secondSVG {
+    text-align: center;
+    fill: white;
+}
+
+.secondSVG {
+    width: 100%;
 }
 
 h1, h2, h3 {
