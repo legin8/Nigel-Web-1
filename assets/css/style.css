@@ -38,6 +38,9 @@ ul {
 /* Start of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 section.block1 h1 {
     font-family: serif;
+    font-weight: 600;
+    font-size: 52px;
+    width: 50%;
 }
 
 .block1 img {
@@ -49,9 +52,26 @@ div.topButton a {
     padding: 19px 74px;
     font-size: 18px;
     font-family: sans-serif;
+    margin-left: 0px;
 
 }
 
+.picTop1 {
+    visibility: visible;
+}
+
+
+.button1:hover {
+    background-color: #006EB6;
+    color: white;
+    transition: 500ms;
+}
+
+.button2:hover {
+    background-color: #006EB6;
+    color: white;
+    transition: 500ms;
+}
 
 
 /* End of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
