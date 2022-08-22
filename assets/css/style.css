@@ -10,6 +10,18 @@ p {
     font-size: 20px;
 }
 
+a {
+    color: #006EB6;
+}
+
+ul {
+    list-style: none;
+}
+
+.centre {
+    text-align: center;
+}
+
 /* End of General Tags !!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -23,9 +35,31 @@ p {
 
 /* Start of Body Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+/* Start of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+section.block1 h1 {
+    font-family: serif;
+}
+
 .block1 img {
     width: 50%;
 }
+
+div.topButton a {
+    border: #006EB6 solid 1px;
+    padding: 19px 74px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+
+
+/* End of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
 
 
 
@@ -34,6 +68,10 @@ p {
 
 
 /* Start of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+footer a {
+    color: white;
+}
+
 footer div, footer div nav {
     background-color: #006EB6;
     color: white;
