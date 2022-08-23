@@ -3,7 +3,13 @@ body {
     color: #006EB6;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+img {
+    width: 100%;
+}
+
 
 
 
@@ -27,7 +33,33 @@ ul {
 
 
 /* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!*/
+header {
 
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #006EB6 solid 1px;
+    border-bottom: #006EB6 solid 1px;
+}
+
+.topBar > div > ul {
+    display: flex;
+    align-items: center;
+}
+
+.topBar li {
+    padding: 0 20px;
+}
 
 
 /* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -37,6 +69,11 @@ ul {
 /* Start of Body Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* Start of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
 section.block1 h1 {
     font-family: serif;
     font-weight: 600;
@@ -46,6 +83,7 @@ section.block1 h1 {
 
 .block1 img {
     width: 50%;
+    margin-top: 30px;
 }
 
 div.topButton a {
