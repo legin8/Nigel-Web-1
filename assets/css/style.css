@@ -70,22 +70,35 @@ header {
 
 /* Start of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+/* Grid for Block 1*/
+.block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* Grid Column 1 */
+/* Block 1 Image */
+.block1 div img {
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+}
 
 
-
-
+/* Grid Column 2 */
+/* Heading */
 section.block1 h1 {
+    padding: 70px 50px;
     font-family: serif;
     font-weight: 600;
     font-size: 52px;
-    width: 50%;
 }
 
-.block1 img {
-    width: 50%;
-    margin-top: 30px;
-}
 
+
+
+/* Block 1 buttons Start */
 div.topButton a {
     border: #006EB6 solid 1px;
     padding: 19px 74px;
@@ -93,10 +106,6 @@ div.topButton a {
     font-family: sans-serif;
     margin-left: 0px;
 
-}
-
-.picTop1 {
-    visibility: visible;
 }
 
 
@@ -111,6 +120,16 @@ div.topButton a {
     color: white;
     transition: 500ms;
 }
+
+/* Block 1 buttons End */
+
+
+/* Block 1.5 Start */
+nav.block1Nav ul {
+    display: flex;
+}
+
+/* Block 1.5 Ends */
 
 
 /* End of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
