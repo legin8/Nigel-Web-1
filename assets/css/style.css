@@ -29,10 +29,15 @@ ul {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* End of General Tags !!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 /* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!*/
+/* Stops the bit at the top of header being transparent */
 header {
 
     padding-top: 10px;
@@ -96,8 +101,6 @@ section.block1 h1 {
 }
 
 
-
-
 /* Block 1 buttons Start */
 div.topButton a {
     border: #006EB6 solid 1px;
@@ -109,24 +112,25 @@ div.topButton a {
 }
 
 
-.button1:hover {
+.buttonBlock1:hover {
     background-color: #006EB6;
     color: white;
     transition: 500ms;
 }
 
-.button2:hover {
-    background-color: #006EB6;
-    color: white;
-    transition: 500ms;
-}
 
 /* Block 1 buttons End */
 
 
 /* Block 1.5 Start */
+.block1Nav {
+    border-top: #006EB6 solid 1px;
+    border-bottom: #006EB6 solid 1px;
+}
+
 nav.block1Nav ul {
     display: flex;
+    
 }
 
 /* Block 1.5 Ends */
