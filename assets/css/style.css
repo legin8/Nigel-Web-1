@@ -122,6 +122,10 @@ div.topButton a {
 /* Block 1 buttons End */
 
 
+
+/* End of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
 /* Block 1.5 Start */
 .block1Nav {
     border-top: #006EB6 solid 1px;
@@ -136,23 +140,31 @@ nav.block1Nav ul {
 /* Block 1.5 Ends */
 
 
-/* End of Block 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 
 
 /* Start of Block 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.block2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
 
 .bird1 {
     width: 25%;
 }
 
+.block2 h2 {
+    font-size: 50px;
+}
 
-.block2p1 {
-    width: 50%;
+.block2 p {
     font-size: 20px;
     text-align: center;
 }
-
-
 
 
 
@@ -163,6 +175,41 @@ nav.block1Nav ul {
 
 
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.block3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.block3blocks {
+    display: flex;
+    
+}
+
+.block3blocks img {
+    width: 15%;
+}
+
+.block3MiddlePic img {
+    border: #006EB6 solid 1px;
+    width: 100%;
+}
+
+.block3 p {
+    font-size: 16px;
+}
+
+
+
+.block3 h2 {
+    border-top: #006EB6 solid 1px;
+    border-bottom: #006EB6 solid 1px;
+    font-size: 50px;
+    text-align: center;
+    padding: 80px;
+}
+
 
 
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
