@@ -193,7 +193,15 @@ nav.block1Nav ul {
 
 .block3blocks {
     display: flex;
-    
+    justify-items: center;
+    align-items: center;
+}
+
+.block3blocks div div div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
 }
 
 .block3blocks img {
@@ -207,6 +215,7 @@ nav.block1Nav ul {
 
 .block3 p {
     font-size: 16px;
+    text-align: center;
 }
 
 
