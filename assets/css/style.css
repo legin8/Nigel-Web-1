@@ -80,18 +80,29 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
 }
 
 /* Grid Column 1 */
 /* Block 1 Image */
-.block1 div img {
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-}
+
 
 
 /* Grid Column 2 */
+.block1RightSideText {
+    display: grid;
+    justify-content:space-around;
+    align-items:center;
+    padding-left: 20px;
+}
+
+
+
+
+
 /* Heading */
 section.block1 h1 {
     padding: 70px 50px;
@@ -130,11 +141,13 @@ div.topButton a {
 .block1Nav {
     border-top: #006EB6 solid 1px;
     border-bottom: #006EB6 solid 1px;
+    margin-top: -3px;
 }
 
 nav.block1Nav ul {
     display: flex;
-    
+    justify-content:space-around;
+    align-items:center;
 }
 
 /* Block 1.5 Ends */
@@ -176,11 +189,7 @@ nav.block1Nav ul {
 
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.block3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-}
+
 
 .block3blocks {
     display: flex;
