@@ -79,36 +79,32 @@ header {
 .block1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    
+
+
 }
 
 /* Grid Column 1 */
-/* Block 1 Image */
-
-
-
-/* Grid Column 2 */
-.block1RightSideText {
-    display: grid;
-    justify-content:space-around;
-    align-items:center;
-    padding-left: 20px;
+/* Block 1 both columns*/
+.block1FirstColumn, .block1secondColumn, .block1RightSideText.topButton {
+    display: flex;
 }
 
 
+/* Grid Column 2 */
 
+.block1secondColumn {
+    padding: 0px 70px;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-/* Heading */
+/* Heading block 1*/
 section.block1 h1 {
-    padding: 70px 50px;
     font-family: serif;
     font-weight: 600;
-    font-size: 52px;
+    font-size: 53px;
+    font-style: normal;
+    line-height: 62px;
 }
 
 
@@ -118,11 +114,16 @@ div.topButton a {
     padding: 19px 74px;
     font-size: 18px;
     font-family: sans-serif;
-    margin-left: 0px;
+    margin: 0px 0px;
 
 }
 
+/* Block 1 button 1 only */
+.buttonBlock1.button1 {
+    border-right: transparent;
+}
 
+/* Block 1 hover effects for top buttons */
 .buttonBlock1:hover {
     background-color: #006EB6;
     color: white;
@@ -141,13 +142,19 @@ div.topButton a {
 .block1Nav {
     border-top: #006EB6 solid 1px;
     border-bottom: #006EB6 solid 1px;
-    margin-top: -3px;
+
 }
 
 nav.block1Nav ul {
     display: flex;
-    justify-content:space-around;
-    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.block1Nav ul li {
+    position: relative;
+    padding: 0 14px;
 }
 
 /* Block 1.5 Ends */
@@ -167,11 +174,12 @@ nav.block1Nav ul {
 
 
 .bird1 {
-    width: 25%;
+    width: 35%;
 }
 
 .block2 h2 {
     font-size: 50px;
+
 }
 
 .block2 p {
