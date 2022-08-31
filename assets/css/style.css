@@ -162,30 +162,55 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .block2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
+    
 }
 
-
+/* This is for the picture of the bird */
 .bird1 {
     width: 35%;
+    margin-bottom: -40px;
 }
 
+/* This is for the block Heading */
 .block2 h2 {
     font-size: 50px;
-    font-weight: 400px;
 
 }
 
+/* This is for the block of text under the heading */
 .block2 p {
     font-size: 20px;
-    text-align: center;
+    padding: 0px 280px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
 }
 
+/* Start of Spinner with text and arrow */
+/* Spinner itself */
+.block2Spinner {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+
+.block2Circle, .block2TextWithArrow {
+    position: absolute;
+}
+
+/* Just for the text and arrow */
+.block2JustTextWithArrow {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-right: 50px;
+    font-size: 26px;
+}
 
 
 
@@ -196,8 +221,7 @@ nav.block1Nav ul li {
 
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-
-
+/* General tag for block 3 starting the */
 .block3blocks {
     display: flex;
     justify-items: center;
