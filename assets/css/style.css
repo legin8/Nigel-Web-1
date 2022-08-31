@@ -79,8 +79,7 @@ header {
 .block1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-
+    grid-template-rows: 1fr;
 }
 
 /* Grid Column 1 */
@@ -111,11 +110,11 @@ section.block1 h1 {
 /* Block 1 buttons Start */
 div.topButton a {
     border: #006EB6 solid 1px;
-    padding: 19px 74px;
+    padding: 19px 0px;
     font-size: 18px;
     font-family: sans-serif;
-    margin: 0px 0px;
-
+    width: 100%;
+    text-align: center;
 }
 
 /* Block 1 button 1 only */
@@ -153,7 +152,6 @@ nav.block1Nav ul {
 }
 
 nav.block1Nav ul li {
-    position: relative;
     padding: 0 14px;
 }
 
@@ -179,6 +177,7 @@ nav.block1Nav ul li {
 
 .block2 h2 {
     font-size: 50px;
+    font-weight: 400px;
 
 }
 
