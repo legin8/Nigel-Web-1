@@ -222,21 +222,27 @@ nav.block1Nav ul li {
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* General tag for block 3 starting the */
-.block3blocks {
+.block3Blocks {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    border-top: #006EB6 solid 1px;
+    border-bottom: #006EB6 solid 1px;
 }
 
-.block3blocks div div div {
+
+.block3Blocks div div, .block3Blocks div img {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-items: center;
 }
 
-.block3blocks img {
-    width: 15%;
+.block3Blocks img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .block3MiddlePic img {
@@ -247,6 +253,7 @@ nav.block1Nav ul li {
 .block3 p {
     font-size: 16px;
     text-align: center;
+    padding: 5px 50px 60px 50px;
 }
 
 
@@ -257,6 +264,10 @@ nav.block1Nav ul li {
     font-size: 50px;
     text-align: center;
     padding: 80px;
+}
+
+.block3ExtraLine {
+    border-top: #006EB6 solid 1px;
 }
 
 
