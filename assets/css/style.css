@@ -291,6 +291,12 @@ nav.block1Nav ul li {
     width: 33%;
 }
 
+.block4Products {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
 
 
 
