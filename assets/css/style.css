@@ -260,7 +260,6 @@ nav.block1Nav ul li {
 
 .block3 h2 {
     border-top: #006EB6 solid 1px;
-    border-bottom: #006EB6 solid 1px;
     font-size: 50px;
     text-align: center;
     padding: 80px;
@@ -281,6 +280,19 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.block4Grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+}
+
+.block4Grid img {
+    width: 33%;
+}
+
+
+
 
 
 /* End of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
