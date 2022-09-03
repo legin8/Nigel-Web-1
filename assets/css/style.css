@@ -168,6 +168,8 @@ nav.block1Nav ul li {
     
 }
 
+
+
 /* This is for the picture of the bird */
 .bird1 {
     width: 35%;
@@ -281,24 +283,65 @@ nav.block1Nav ul li {
 
 /* Start of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.block4Grid {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 1fr;
+/* Vertical Bar */
+
+.block4VerticalBar {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    direction: rtl;
+    transform: rotateZ(180deg);
+    font-size: 30px;
+    padding: 60px 10px;
+    border-left: #006EB6 solid 1px;
 }
 
+/* General */
+.block4Grid {
+    display: grid;
+    grid-template-columns: 9% 91%;
+    grid-template-rows: 1fr;
+    border-bottom: #006EB6 solid 1px;
+}
+
+/* Products */
 .block4Grid img {
-    width: 33%;
+    width: 75%;
 }
 
 .block4Products {
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
     grid-template-rows: 1fr;
+    gap: 5%;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 
 
+/* block under products aka block 4 footer */
+
+.block4Footer {
+    text-align: center;
+    padding: 50px 0px;
+    border-top: #006EB6 solid 1px;
+}
+
+/* heading befor text */
+.block4Footer h3 {
+    font-size: 38px;
+}
+
+/* text below heading */
+.block4Footer a {
+    font-size: 18px;
+}
+
+/* little arrow thats part of text */
+.block4Footer img {
+    width: 1.5%;
+}
 
 
 /* End of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -310,6 +353,21 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.block5Base {
+    padding: 70px;
+}
+
+.block5Picture {
+    margin: -40px 0px;
+}
+
+.block5Circle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 
 /* End of Block 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
