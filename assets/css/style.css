@@ -44,6 +44,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 100;
 }
 
 
@@ -165,7 +166,7 @@ nav.block1Nav ul li {
 
 .block2 {
     text-align: center;
-    
+    position: relative;
 }
 
 
@@ -195,9 +196,16 @@ nav.block1Nav ul li {
 .block2Spinner {
     display: flex;
     flex-direction: row;
-    position: static;
+    position: absolute;
     align-content: flex-end;
     justify-content: flex-end;
+    z-index: 88;
+    bottom: 100px;
+    right: 100px;
+
+    width: 215px;
+    height: 215px;
+    transform: rotate(20deg);
 }
 
 
@@ -205,12 +213,20 @@ nav.block1Nav ul li {
     position: absolute;
 }
 
+.block2TextWithArrow {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Just for the text and arrow */
 .block2JustTextWithArrow {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    padding-right: 50px;
     font-size: 26px;
 }
 
@@ -354,9 +370,7 @@ nav.block1Nav ul li {
 
 /* Start of Block 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.block5Base {
-    padding: 70px;
-}
+
 
 .block5Picture {
     margin: -40px 0px;
@@ -367,7 +381,17 @@ nav.block1Nav ul li {
     justify-content: flex-end;
 }
 
+.arrow {
+    width: 2%;
+}
 
+.block5Text {
+    text-align: center;
+}
+
+.block5Heading {
+    font-size: 50px;
+}
 
 
 /* End of Block 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -377,6 +401,56 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.block6TopBox {
+    border-top: #006EB6 solid 1px;
+    border-bottom: #006EB6 solid 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block6TopBox h4 {
+    font-size: 28px;
+}
+
+.block6TopBox h5 {
+    font-size: 18px;
+}
+
+
+
+
+.block6MainBlock {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.block6Part1 .block6Picture {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.block6Picture {
+    
+}
+
+.block6Part2 {
+    display: none;
+}
+
+
+.block6VerticalBlock {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    direction: rtl;
+    transform: rotateZ(180deg);
+    font-size: 30px;
+    padding: 60px 10px;
+    border-left: #006EB6 solid 1px;
+
+}
+
+
 
 
 /* End of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
