@@ -293,6 +293,13 @@ nav.block1Nav ul li {
     border-top: #006EB6 solid 1px;
 }
 
+/* content of each box ??????????????????????????? why not working?*/
+.centerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -338,6 +345,24 @@ nav.block1Nav ul li {
     padding-top: 70px;
     padding-bottom: 80px;
     text-align: center;
+}
+
+/* block 4 buttons */
+.block4Grid button {
+    opacity: 0;
+}
+
+/* button 1 */
+.product1:hover .buttons1 button {
+    opacity: 1;
+}
+
+.product2:hover .buttons2 button {
+    opacity: 1;
+}
+
+.product3:hover .buttons3 button {
+    opacity: 1;
 }
 
 
