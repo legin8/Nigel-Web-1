@@ -156,6 +156,12 @@ nav.block1Nav ul li {
     padding: 0 14px;
 }
 
+/* this is the dot between the things on the nav bar */
+.navBarDot::before {
+    content: "•";
+    font-size: 9px;
+}
+
 /* Block 1.5 Ends */
 
 
