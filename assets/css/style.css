@@ -206,9 +206,10 @@ nav.block1Nav ul li {
     align-content: flex-end;
     justify-content: flex-end;
     z-index: 88;
-    bottom: 100px;
-    right: 100px;
-
+    
+    bottom: -90px;
+    right: 170px;
+    
     width: 215px;
     height: 215px;
     transform: rotate(20deg);
