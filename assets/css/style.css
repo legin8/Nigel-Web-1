@@ -254,6 +254,7 @@ nav.block1Nav ul li {
     border-bottom: #006EB6 solid 1px;
 }
 
+/* Block with heading above grid */
 .block3TopHeadingBlock {
     border-top: #006EB6 solid 1px;
     font-size: 30px;
@@ -261,23 +262,27 @@ nav.block1Nav ul li {
     padding: 40px;
 }
 
+/* general for all p elements */
 .block3 p {
     font-size: 16px;
     text-align: center;
     padding: 5px 50px 60px 50px;
 }
 
+/* general for all images in grid */
 .block3Img {
     width: 20%;
     display: flex;
 }
 
+/* left block of the 3 columns */
 .block3Gridleft {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/* for each of the 4 small blocks in the 3 columns */
 .block3LeftTop, .block3LeftBottom, .block3RightTop, .block3RightBottom {
     display: flex;
     flex-direction: column;
@@ -287,18 +292,19 @@ nav.block1Nav ul li {
     line-height: 30px;
 }
 
-
+/* for the middle picture in column 2 */
 .block3MiddlePic {
     border: #006EB6 solid 1px;
     display: flex;
 }
 
-
+/* for the right grid in column 3 */
 .block3GridsRight {
     display: flex;
     flex-direction: column;
 }
 
+/* extra style for 1 boarder between the two blocks  on each side */
 .block3GridLineBetween {
     border-top: #006EB6 solid 1px;
 }
