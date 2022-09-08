@@ -2,7 +2,7 @@
 body {
     color: #006EB6;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     
 }
 
@@ -248,31 +248,17 @@ nav.block1Nav ul li {
 
 /* General tag for block 3 starting the */
 .block3Blocks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
     border-top: #006EB6 solid 1px;
     border-bottom: #006EB6 solid 1px;
 }
 
-
-.block3Blocks div div, .block3Blocks div img {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-}
-
-.block3Blocks img {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.block3MiddlePic img {
-    border: #006EB6 solid 1px;
-    width: 100%;
+.block3TopHeadingBlock {
+    border-top: #006EB6 solid 1px;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
 }
 
 .block3 p {
@@ -281,27 +267,41 @@ nav.block1Nav ul li {
     padding: 5px 50px 60px 50px;
 }
 
-
-
-.block3 h2 {
-    border-top: #006EB6 solid 1px;
-    font-size: 50px;
-    text-align: center;
-    padding: 80px;
-}
-
-.block3ExtraLine {
-    border-top: #006EB6 solid 1px;
-}
-
-/* content of each box ??????????????????????????? why not working?*/
-.centerBox {
+.block3Img {
+    width: 20%;
     display: flex;
+}
+
+.block3Gridleft {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.block3LeftTop, .block3LeftBottom, .block3RightTop, .block3RightBottom {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px;
+    line-height: 30px;
 }
 
 
+.block3MiddlePic {
+    border: #006EB6 solid 1px;
+    display: flex;
+}
+
+
+.block3GridsRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.block3GridLineBetween {
+    border-top: #006EB6 solid 1px;
+}
 
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
