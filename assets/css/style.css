@@ -357,19 +357,37 @@ nav.block1Nav ul li {
 /* block 4 buttons */
 .block4Grid button {
     opacity: 0;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
 }
 
 /* button 1 */
 .product1:hover .buttons1 button {
     opacity: 1;
+    color: #006EB6;
+    border: lightgray solid 1px;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
 }
 
 .product2:hover .buttons2 button {
     opacity: 1;
+    color: #006EB6;
+    border: lightgray solid 1px;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
 }
 
 .product3:hover .buttons3 button {
     opacity: 1;
+    color: #006EB6;
+    border: lightgray solid 1px;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
 }
 
 
@@ -378,8 +396,8 @@ nav.block1Nav ul li {
 
 .block4Footer {
     text-align: center;
-    padding: 50px 0px;
     border-top: #006EB6 solid 1px;
+    padding: 45px;
 }
 
 /* heading befor text */
@@ -397,6 +415,15 @@ nav.block1Nav ul li {
     width: 1.5%;
 }
 
+/* sqiggle under Feeling peckish */
+.block4Sqiggle::after {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    content: url(https://cdn.shopify.com/s/files/1/1530/0579/t/28/assets/squiggle.svg?v=149664987642063442131637456742);
+}
+
+
 
 /* End of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -411,7 +438,7 @@ nav.block1Nav ul li {
 
 
 .block5Picture {
-    margin: -40px 0px;
+    margin: 0px 0px;
 }
 
 .block5Circle {
