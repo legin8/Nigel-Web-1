@@ -616,16 +616,19 @@ footer {
 .footerLeftColumnLevel1, .footerLeftColumnLevel2, .footerLeftColumnLeve3 {
     display: flex;
     flex-direction: row;
-    padding: 20px;
 }
 
 .footerLeftColumnLevel1 {
     border-bottom: white solid 1px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 
 .footerLeftColumnLevel2 {
     border-bottom: white solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -639,9 +642,23 @@ footer {
     color: white;
 }
 
-
-.footer > div {
-    border: black 1px solid;
+.footerPaddingLeftBlocks {
+    padding: 40px 40px 30px 20px;
 }
+
+.footerBaseLevel li {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.footerBaseLevel input {
+    padding: 20px 225px;
+}
+
+.footerBaseLevel h4 {
+    font-size: 22px;
+    width: 70%;
+}
+
 
 /* End of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
