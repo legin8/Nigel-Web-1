@@ -597,67 +597,88 @@ nav.block1Nav ul li {
 
 
 /* Start of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* sets margin and background color for the footer */
 footer {
     background-color: #006EB6;
     margin: 0px;
 }
 
+/* this makes the footer a grid with 2 columns */
 .footerBaseLevel {
     display: grid;
     grid-template-columns: 76% 24%;
 }
 
+/* this makes the left column flex in a column and sets 1 border */
 .footerLeftColumn {
     display: flex;
     flex-direction: column;
     border-right: white 1px solid;
 }
 
+/* this sets each level of the child of footerLeft to be flex in a row */
 .footerLeftColumnLevel1, .footerLeftColumnLevel2, .footerLeftColumnLeve3 {
     display: flex;
     flex-direction: row;
 }
 
+/* sets this block of left column to grid and makes it 2 columns */
 .footerLeftColumnLevel1 {
     border-bottom: white solid 1px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-
+/* sets the second level of left column bottom boarder and makes it grid */
 .footerLeftColumnLevel2 {
     border-bottom: white solid 1px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
+/* sets boarder on left side */
 .footerBorderLeft {
     border-left: white solid 1px;
 }
 
-
-
+/* sets text color to white */
 .whiteText, .whiteText a {
     color: white;
 }
 
+/* sets padding for the left column blocks */
 .footerPaddingLeftBlocks {
     padding: 40px 40px 30px 20px;
 }
 
+/* sets text size and line height */
 .footerBaseLevel li {
     line-height: 30px;
     font-size: 14px;
 }
 
+/* padding for top block left with input */
 .footerBaseLevel input {
     padding: 20px 225px;
 }
 
+/* sets text size and width for top left block heading */
 .footerBaseLevel h4 {
     font-size: 22px;
     width: 70%;
+}
+
+/* sets text size for stuff other wasn't targeting */
+.footerLeftColumnLeve3 p, .footerLeftColumnLeve3 a {
+    font-size: 14px;
+}
+
+/* sets bottom left block to flex and aligns stuff with padding */
+.footerLeftColumnLeve3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
 
 
