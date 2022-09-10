@@ -681,5 +681,44 @@ footer {
     padding: 20px 40px;
 }
 
+/* sets right column to grid */
+.footerRight {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+/* makes a grid of 3 rows in footer right block 1 */
+.footerRightBlock1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-right: white 1px solid;
+}
+
+/* make each box on right column flex and centers content */
+.footerRightBlock1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sets the borders between the boxes on the right column */
+.footerRightFirstblockMiddle {
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+/* footer right column second block */
+.footerRightBlock2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+/* sets footer right columns pics width */
+.footerPic {
+    width: 40%;
+}
 
 /* End of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
