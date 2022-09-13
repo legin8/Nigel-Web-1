@@ -502,11 +502,11 @@ nav.block1Nav ul li {
     justify-content: space-around;
 }
 
-.block6TopBoxHeadder1 {
+.block6TopBoxHeader1 {
     width: 50%;
 }
 
-.block6TopBoxHeadder2 a {
+.block6TopBoxHeader2 a {
     display: flex;
     flex-direction: row;
 }
@@ -528,7 +528,7 @@ nav.block1Nav ul li {
 /* Start of main boxes */
 .block6MainBlock {
     display: grid;
-    grid-template-columns: 9% 82% 9%;
+    grid-template-columns: 7% 86% 7%;
 }
 
 .block6Part1 {
@@ -540,11 +540,6 @@ nav.block1Nav ul li {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-}
-
-.block6Part1 .block6Picture {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
 }
 
 .block6Part2 {
@@ -562,6 +557,20 @@ nav.block1Nav ul li {
     border-left: #006EB6 solid 1px;
 
 }
+/* picture in main left grid with padding */
+.block6GridA {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 50px 60px;
+}
+
+/* box next to picture in grid */
+.block6GridApartB {
+    padding-left: 30px;
+    margin: 0px;
+}
+
+
 
 
 
@@ -587,7 +596,12 @@ nav.block1Nav ul li {
 
 
 /* End of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
+/* main grid of block 8 */
+.block8Main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 
 
