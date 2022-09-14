@@ -600,11 +600,48 @@ nav.block1Nav ul li {
 .block8Main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+/* block 8 leftColumn */
+.block8leftColumn {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-left: 40%;
 }
 
 
 
+/* block 8 rightColumn */
+.block8rightColumn {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-right: 40%;
+}
+
+/* block 8 Heading */
+.block8Heading {
+    font-size: 50px;
+}
+
+/* block 8 text */
+.block8Text {
+    font-size: 27px;   
+}
+
+/* block 8 button div */
+.block8ButtonDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+/* block 8 button */
+.block8Button {
+    border: #006EB6 1px solid;
+    padding: 20px;
+}
 
 
 /* End of Body Tags !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
