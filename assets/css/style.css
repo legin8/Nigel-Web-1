@@ -601,13 +601,15 @@ nav.block1Nav ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    border-top: #006EB6 solid 1px;
+    padding-top: 70px;
 }
 
 /* block 8 leftColumn */
 .block8leftColumn {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
-    padding-left: 40%;
+    padding-left: 18%;
 }
 
 
@@ -616,7 +618,7 @@ nav.block1Nav ul li {
 .block8rightColumn {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
-    padding-right: 40%;
+    padding-right: 20%;
 }
 
 /* block 8 Heading */
@@ -635,6 +637,12 @@ nav.block1Nav ul li {
     justify-content: flex-end;
     align-items: flex-end;
     padding-bottom: 50px;
+}
+
+.block8Button:hover {
+    color: white;
+    background-color: #006EB6;
+    transition: 0.5s;
 }
 
 /* block 8 button */
