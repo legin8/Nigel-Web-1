@@ -604,7 +604,7 @@ nav.block1Nav ul li {
 
 /* just for the arrow in block 7 */
 .block7Arrow {
-    width: 7%;
+    width: 18%;
 }
 
 /* middle box on the right column */
@@ -615,8 +615,16 @@ nav.block1Nav ul li {
 
 /* each box in right column */
 .block7RightBoxes {
-    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 80px;
     
+}
+
+.block7RightArrowDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
