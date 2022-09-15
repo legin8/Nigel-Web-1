@@ -583,6 +583,48 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 7 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* base grid of block 7 */
+.block7GridBase {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+/* line between left and right column */
+.block7Box1 {
+    border-right: #006EB6 1px solid;
+    padding: 60px;
+}
+
+/* the birdy */
+.block7Birdy {
+    width: 70%;
+    position: relative;
+    bottom: -200px;
+}
+
+/* just for the arrow in block 7 */
+.block7Arrow {
+    width: 7%;
+}
+
+/* middle box on the right column */
+.block7Box3 {
+    border-top: #006EB6 1px solid;
+    border-bottom: #006EB6 1px solid;
+}
+
+/* each box in right column */
+.block7RightBoxes {
+    padding: 40px;
+    
+}
+
+
+
+
+
+
+
 
 
 /* End of Block 7 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -595,7 +637,12 @@ nav.block1Nav ul li {
 /* Start of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
-/* End of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
 /* main grid of block 8 */
 .block8Main{
     display: grid;
@@ -650,6 +697,13 @@ nav.block1Nav ul li {
     border: #006EB6 1px solid;
     padding: 20px;
 }
+/* End of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
 
 
 /* End of Body Tags !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
