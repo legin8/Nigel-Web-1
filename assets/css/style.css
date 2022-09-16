@@ -608,6 +608,26 @@ nav.block1Nav ul li {
 /* just for the arrow in block 7 */
 .block7Arrow {
     width: 12%;
+    display: none;
+}
+
+/* hover effect to show the arrows */
+/* Arrow 1 */
+.b7B1:hover .b7Arrow1 {
+    display: block;
+    transition: 0.5s;
+}
+
+/* Arrow 2 */
+.b7B2:hover .b7Arrow2 {
+    display: block;
+    transition: 0.5s;
+}
+
+/* Arrow 3 */
+.b7B3:hover .b7Arrow3 {
+    display: block;
+    transition: 0.5s;
 }
 
 /* middle box on the right column */
