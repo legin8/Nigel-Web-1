@@ -593,18 +593,21 @@ nav.block1Nav ul li {
 .block7Box1 {
     border-right: #006EB6 1px solid;
     padding: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 /* the birdy */
 .block7Birdy {
     width: 70%;
     position: relative;
-    bottom: -200px;
+    bottom: -180px;
+    left: -120px;
 }
 
 /* just for the arrow in block 7 */
 .block7Arrow {
-    width: 18%;
+    width: 12%;
 }
 
 /* middle box on the right column */
