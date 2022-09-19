@@ -71,6 +71,33 @@ header {
 /* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
+/* Start of Fixed stuff on screen */
+.cupDiv {
+    top: 25%;
+    right: 0px;
+    width: 3%;
+    position: fixed;
+    padding: 30px 20px 30px 30px;
+    background-color: whitesmoke;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.smallCup {
+    position: fixed;
+    width: 3%;
+    top: 172px;
+}
+
+
+/*
+    
+    
+    
+*/
+
+/* End of Fixed stuff on screen */
+
 
 /* Start of Body Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
