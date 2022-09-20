@@ -83,18 +83,32 @@ header {
     border-bottom-left-radius: 50%;
 }
 
+/* Makes background bigger */
+.cupDiv:hover {
+    width: 7%;
+}
+
+/* affects the cup */
 .smallCup {
     position: fixed;
-    width: 2.7%;
+    width: 2.5%;
     top: 25.8%;
 }
 
+/* stuff for the text next to cup */
+.cupDiv p {
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 2%;
+    display: none;
+}
 
-/*
-    
-    
-    
-*/
+/* makes text appear */
+.cupMainDiv:hover .cupDiv p {
+    display: block;
+}
+
 
 /* End of Fixed stuff on screen */
 
