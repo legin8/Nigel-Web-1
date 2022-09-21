@@ -109,6 +109,38 @@ header {
     display: block;
 }
 
+.topBarCircle div {
+    color: white;
+    background-color: #006EB6;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 8px;
+}
+
+.topBarCircle {
+    padding: 0px 15px;
+}
+
+/* hover for trolly */
+.topBarRightSide:hover .trollyHover {
+    display: block;
+    transition: 1s;
+}
+
+.topBarRightSide:hover .trollyNormal {
+    display: none;
+    transition: 1s;
+}
+
+.trollyHover {
+    display: none;
+}
+
+.shoppingtrollyDot {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* End of Fixed stuff on screen */
 
@@ -907,3 +939,9 @@ footer {
 }
 
 /* End of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* Media querys */
+
+@media (max-width:1050px) {
+
+}
