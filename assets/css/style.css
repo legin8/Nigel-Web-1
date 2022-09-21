@@ -943,5 +943,7 @@ footer {
 /* Media querys */
 
 @media (max-width:1050px) {
-
+  .disapearTopBar {
+    display: none;
+  }
 }
