@@ -168,6 +168,11 @@ header {
     display: flex;
 }
 
+.block1Pic {
+  content: url("//cdn.shopify.com/s/files/1/1530/0579/files/stanley2_1200x_1eb44c41-d304-42d3-b119-f277a29e0ab6_1200x.jpg?v=1656632906");
+  width: 100%;
+}
+
 
 /* Grid Column 2 */
 
