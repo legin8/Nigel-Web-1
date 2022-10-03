@@ -1,6 +1,12 @@
 /* Start of General Tags !!!!!!!!!!!!!!!!!!!!!!*/
+:root {
+  --mainColor: #006EB6;
+}
+
+
+
 body {
-    color: #006EB6;
+    color: var(--mainColor);
     margin: 0px;
     font-family: Helvetica, Arial, sans-serif;
     
@@ -18,7 +24,7 @@ p {
 }
 
 a {
-    color: #006EB6;
+    color: var(--mainColor);
 }
 
 ul {
@@ -54,8 +60,8 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-top: #006EB6 solid 1px;
-    border-bottom: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
 }
 
 .topBar > div > ul {
@@ -111,7 +117,7 @@ header {
 
 .topBarCircle div {
     color: white;
-    background-color: #006EB6;
+    background-color: var(--mainColor);
     border-radius: 50%;
     text-align: center;
     padding: 5px 8px;
@@ -183,7 +189,7 @@ section.block1 h1 {
 
 /* Block 1 buttons Start */
 div.topButton a {
-    border: #006EB6 solid 1px;
+    border: var(--mainColor) solid 1px;
     padding: 19px 0px;
     font-size: 18px;
     font-family: sans-serif;
@@ -198,7 +204,7 @@ div.topButton a {
 
 /* Block 1 hover effects for top buttons */
 .buttonBlock1:hover {
-    background-color: #006EB6;
+    background-color: var(--mainColor);
     color: white;
     transition: 500ms;
 }
@@ -213,8 +219,8 @@ div.topButton a {
 
 /* Block 1.5 Start */
 .block1Nav {
-    border-top: #006EB6 solid 1px;
-    border-bottom: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
 
 }
 
@@ -323,13 +329,13 @@ nav.block1Nav ul li {
 .block3Blocks {
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    border-top: #006EB6 solid 1px;
-    border-bottom: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
 }
 
 /* Block with heading above grid */
 .block3TopHeadingBlock {
-    border-top: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
     font-size: 30px;
     text-align: center;
     padding: 40px;
@@ -367,7 +373,7 @@ nav.block1Nav ul li {
 
 /* for the middle picture in column 2 */
 .block3MiddlePic {
-    border: #006EB6 solid 1px;
+    border: var(--mainColor) solid 1px;
     display: flex;
 }
 
@@ -379,7 +385,7 @@ nav.block1Nav ul li {
 
 /* extra style for 1 boarder between the two blocks  on each side */
 .block3GridLineBetween {
-    border-top: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
 }
 
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -401,7 +407,7 @@ nav.block1Nav ul li {
     transform: rotateZ(180deg);
     font-size: 30px;
     padding: 60px 10px;
-    border-left: #006EB6 solid 1px;
+    border-left: var(--mainColor) solid 1px;
 }
 
 /* General */
@@ -409,7 +415,7 @@ nav.block1Nav ul li {
     display: grid;
     grid-template-columns: 9% 91%;
     grid-template-rows: 1fr;
-    border-bottom: #006EB6 solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
 }
 
 /* Products */
@@ -438,7 +444,7 @@ nav.block1Nav ul li {
 /* button 1 */
 .product1:hover .buttons1 button {
     opacity: 1;
-    color: #006EB6;
+    color: var(--mainColor);
     border: lightgray solid 1px;
     background-color: white;
     font-size: 15px;
@@ -448,7 +454,7 @@ nav.block1Nav ul li {
 /* button 2 */
 .product2:hover .buttons2 button {
     opacity: 1;
-    color: #006EB6;
+    color: var(--mainColor);
     border: lightgray solid 1px;
     background-color: white;
     font-size: 15px;
@@ -458,7 +464,7 @@ nav.block1Nav ul li {
 /* button 3 */
 .product3:hover .buttons3 button {
     opacity: 1;
-    color: #006EB6;
+    color: var(--mainColor);
     border: lightgray solid 1px;
     background-color: white;
     font-size: 15px;
@@ -471,7 +477,7 @@ nav.block1Nav ul li {
 
 .block4Footer {
     text-align: center;
-    border-top: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
     padding: 45px;
 }
 
@@ -568,8 +574,8 @@ nav.block1Nav ul li {
 /* Start of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .block6TopBox {
-    border-top: #006EB6 solid 1px;
-    border-bottom: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -605,8 +611,8 @@ nav.block1Nav ul li {
 }
 
 .block6Part1 {
-    border-bottom: #006EB6 solid 1px;
-    border-right: #006EB6 solid 1px;
+    border-bottom: var(--mainColor) solid 1px;
+    border-right: var(--mainColor) solid 1px;
 }
 
 .block6PictureA {
@@ -627,7 +633,7 @@ nav.block1Nav ul li {
     transform: rotateZ(180deg);
     font-size: 30px;
     padding: 60px 10px;
-    border-left: #006EB6 solid 1px;
+    border-left: var(--mainColor) solid 1px;
 
 }
 /* picture in main left grid with padding */
@@ -664,7 +670,7 @@ nav.block1Nav ul li {
 
 /* line between left and right column */
 .block7Box1 {
-    border-right: #006EB6 1px solid;
+    border-right: var(--mainColor) 1px solid;
     padding: 60px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -705,8 +711,8 @@ nav.block1Nav ul li {
 
 /* middle box on the right column */
 .block7Box3 {
-    border-top: #006EB6 1px solid;
-    border-bottom: #006EB6 1px solid;
+    border-top: var(--mainColor) 1px solid;
+    border-bottom: var(--mainColor) 1px solid;
 }
 
 /* each box in right column */
@@ -752,7 +758,7 @@ nav.block1Nav ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    border-top: #006EB6 solid 1px;
+    border-top: var(--mainColor) solid 1px;
     padding-top: 70px;
 }
 
@@ -792,13 +798,13 @@ nav.block1Nav ul li {
 
 .block8Button:hover {
     color: white;
-    background-color: #006EB6;
+    background-color: var(--mainColor);
     transition: 0.5s;
 }
 
 /* block 8 button */
 .block8Button {
-    border: #006EB6 1px solid;
+    border: var(--mainColor) 1px solid;
     padding: 20px;
 }
 /* End of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -816,7 +822,7 @@ nav.block1Nav ul li {
 /* Start of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* sets margin and background color for the footer */
 footer {
-    background-color: #006EB6;
+    background-color: var(--mainColor);
     margin: 0px;
 }
 
