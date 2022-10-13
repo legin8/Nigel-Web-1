@@ -1,4 +1,7 @@
-document.querySelector(".block6VerticalBlock").addEventListener("click", e => {
-  let x = document.querySelector("block6Part2");
-  x.style.display = "block";
-})
+document.querySelector(".blockB").addEventListener("click", e => {
+  let part2 = document.querySelector(".block6Part2");
+  alert(part2);
+  
+  let part1 = document.querySelector(".block6Part1");
+  
+});
