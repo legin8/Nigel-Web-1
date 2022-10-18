@@ -1,11 +1,18 @@
+let block6Panel1 = document.querySelector(".block6Part1");
+let block6Panel2 = document.querySelector(".block6Part2")
+let block6MainBlock = document.querySelector(".block6MainBlock");
+const block = "block";
+const none = "none";
+
+
 document.querySelector(".blockB").addEventListener("click", e => {
-  let part2 = document.querySelector(".block6Part2");
-  alert(part2);
-  
-  let part1 = document.querySelector(".block6Part1");
+  block6Panel1.style.display = none;
+  block6Panel2.style.display = block;
+  block6MainBlock.style.gridTemplateColumns = "7% 7% 86%";
 });
 
-
-let part1 = document.querySelector(".block6Part1").style.display = "none";
-let part2 = document.querySelector(".block6Part2").style.display = "block";
-document.querySelector(".block6VerticalBlock.blockB").style.width = "7%";
+document.querySelector(".blockA").addEventListener("click", e => {
+  block6Panel1.style.display = block;
+  block6Panel2.style.display = none;
+  block6MainBlock.style.gridTemplateColumns = "7% 86% 7%";
+});
