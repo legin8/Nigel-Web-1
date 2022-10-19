@@ -621,16 +621,11 @@ nav.block1Nav ul li {
     grid-template-columns: 7% 86% 7%;
 }
 
-.block6Part1 {
+.block6Part1, .block6Part2 {
     border-bottom: var(--mainColor) solid 1px;
     border-right: var(--mainColor) solid 1px;
 }
 
-.block6PictureA {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-}
 
 .block6Part2 {
     display: none;
@@ -648,14 +643,18 @@ nav.block1Nav ul li {
 
 }
 /* picture in main left grid with padding */
-.block6GridA {
+.block6GridA, .block6GridB {
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 50px 60px;
 }
 
+.b6f {
+    display: flex;
+}
+
 /* box next to picture in grid */
-.block6GridApartB {
+.block6GridApartB, .block6GridBpartB {
     padding-left: 30px;
     margin: 0px;
 }
