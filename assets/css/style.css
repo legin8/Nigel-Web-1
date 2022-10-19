@@ -640,7 +640,7 @@ nav.block1Nav ul li {
     font-size: 30px;
     padding: 60px 10px;
     border-left: var(--mainColor) solid 1px;
-
+    border-top: var(--mainColor) solid 1px;
 }
 /* picture in main left grid with padding */
 .block6GridA, .block6GridB {
