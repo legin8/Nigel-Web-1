@@ -4,23 +4,15 @@ console.log(allImgs.length);
 
 const BASE_URL = "https://api.unsplash.com";
 const API_KEY = "cm4Mq6siY-LIWX3qZD3M6SU1t2Z3qoix0v8ObeVJHOc";
+let picuturesToGet = allImgs.length;
 
-fetch(`${BASE_URL}/search/photos?query=coffee&per_page=40&client_id=${API_KEY}`).then(
-  response => response.json())
-  .then(data => {
-    data.results.forEach(result => {
-      console.log(result.urls.regular);
-    })
-  })
-
-/*
-(async () => {
-  response = fetch(`${BASE_URL}/search/photos?query=coffee&client_id=${API_KEY}`)
-  let data = await response.json();
-  await console.log(data)
-  console.log(data);
-})()
-*/
+fetch(`${BASE_URL}/search/photos?query=coffee&per_page=${picuturesToGet}&client_id=${API_KEY}`)
+.then(response => response.json())
+.then(data => {
+  allImgs.forEach((img, i) => {
+    img.src = data.results[i].urls.regular;
+    });
+});
 
 let block6Panel1 = document.querySelector(".block6Part1");
 let block6Panel2 = document.querySelector(".block6Part2")
