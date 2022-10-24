@@ -1,3 +1,7 @@
+let allImgs = document.querySelectorAll("img");
+console.log(allImgs);
+console.log(allImgs.length)
+
 let block6Panel1 = document.querySelector(".block6Part1");
 let block6Panel2 = document.querySelector(".block6Part2")
 let block6MainBlock = document.querySelector(".block6MainBlock");
