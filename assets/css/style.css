@@ -160,6 +160,8 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* Grid Column 1 */
@@ -168,8 +170,15 @@ header {
     display: flex;
 }
 
-.block1Pic {
-  content: url("//cdn.shopify.com/s/files/1/1530/0579/files/stanley2_1200x_1eb44c41-d304-42d3-b119-f277a29e0ab6_1200x.jpg?v=1656632906");
+/* This fixes the image and centers it */
+.imgToApi {
+    /*content: url(https://images.unsplash.com/photo-1518057111178-44a106bad636?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzQ3Mzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWV8ZW58MHx8fHwxNjY2NjU3Mzgy&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080);*/
+    background-position: center;
+    background-size: cover;
+
+}
+
+.block1Pic { 
   width: 100%;
 }
 
@@ -232,7 +241,6 @@ div.topButton a {
 .block1Nav {
     border-top: var(--mainColor) solid 1px;
     border-bottom: var(--mainColor) solid 1px;
-
 }
 
 nav.block1Nav ul {
