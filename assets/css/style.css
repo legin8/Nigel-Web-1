@@ -528,6 +528,12 @@ nav.block1Nav ul li {
     width: 25vh;
     padding-left: 180px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.block4Texts {
+    display: block;
 }
 
 
