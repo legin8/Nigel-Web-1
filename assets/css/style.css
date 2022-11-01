@@ -449,6 +449,7 @@ nav.block1Nav ul li {
     padding-top: 70px;
     padding-bottom: 80px;
     text-align: center;
+    overflow: hidden;
 }
 
 /* block 4 buttons */
@@ -527,9 +528,13 @@ nav.block1Nav ul li {
     height: 50vh;
     width: 25vh;
     padding-left: 180px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+.product1Img {
+    width: 20vh;
+    height: 40vh;
 }
 
 .block4Texts {
