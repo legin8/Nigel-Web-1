@@ -561,6 +561,9 @@ nav.block1Nav ul li {
 /* for picture div at top */
 .block5PictureDiv {
     padding: 70px 70px 70px 70px;
+    left: 50px;
+    right: 50px;
+    height: 600px;
 }
 
 /* for the circle */
@@ -568,8 +571,8 @@ nav.block1Nav ul li {
     display: flex;
     position: relative;
     justify-content: flex-end;
-    bottom: 150px;
-    right: 40px;
+    bottom: 70px;
+    right: 400px;
 }
  /* for the circle */
 .block5StuffInSideCircle {
