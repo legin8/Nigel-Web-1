@@ -27,25 +27,20 @@ document.querySelector(".clickAwayTargetBox").addEventListener("click", e => {
 })
 
 
+// This is used to change the layout in block 6, it's where you click a virtical bar and each one changes what you are,
+// being shown, I'm not saving to any variables as they largely arn't needed, trying to keep things simple.
+// Each one displays the page in only its way, to change it you have to click on the other Bar.
 
-
-
-
-let block6Panel1 = document.querySelector(".block6Part1");
-let block6Panel2 = document.querySelector(".block6Part2")
-let block6MainBlock = document.querySelector(".block6MainBlock");
-const block = "block";
-const none = "none";
-
-
+// This shows the second block
 document.querySelector(".blockB").addEventListener("click", e => {
-  block6Panel1.style.display = none;
-  block6Panel2.style.display = block;
-  block6MainBlock.style.gridTemplateColumns = "7% 7% 86%";
+  document.querySelector(".block6Part1").style.display = "none";
+  document.querySelector(".block6Part2").style.display = "block";
+  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "7% 7% 86%";
 });
 
+// This show the first block
 document.querySelector(".blockA").addEventListener("click", e => {
-  block6Panel1.style.display = block;
-  block6Panel2.style.display = none;
-  block6MainBlock.style.gridTemplateColumns = "7% 86% 7%";
+  document.querySelector(".block6Part1").style.display = "block";
+  document.querySelector(".block6Part2").style.display = "none";
+  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "7% 86% 7%";
 });
