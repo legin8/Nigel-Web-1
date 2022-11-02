@@ -156,6 +156,19 @@ header {
     height: 50px;
     z-index: 10;
     border-top: var(--mainColor) 1px solid;
+    display: flex;
+}
+
+/* The X in the corner */
+p.clickAwayBoxX {
+    position:fixed;
+    right: 30px;
+}
+
+/* The Text in the box */
+div .clickAwayBoxText {
+    position: fixed;
+    left: 35%;
 }
 
 /* End of Fixed stuff on screen */
