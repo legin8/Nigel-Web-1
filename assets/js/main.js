@@ -4,11 +4,11 @@
 // Will always get the right amount of images.
 let allImgs = document.querySelectorAll(".imgToApi");
 
-// This is the Base url and api key in seperate consts to make reading the fetch easier to read.
+// This is the Base url and api key in different consts to make reading the fetch easier to read.
 const BASE_URL = "https://api.unsplash.com";
 const API_KEY = "cm4Mq6siY-LIWX3qZD3M6SU1t2Z3qoix0v8ObeVJHOc";
 
-// This API call returns the amont of urls needed for the array it's being used on.
+// This API call returns the amount of urls needed for the array it's being used on.
 fetch(`${BASE_URL}/search/photos?query=coffee&per_page=${allImgs.length}&client_id=${API_KEY}`)
 .then(response => response.json())
 .then(data => {
@@ -27,8 +27,8 @@ document.querySelector(".clickAwayTargetBox").addEventListener("click", e => {
 })
 
 
-// This is used to change the layout in block 6, it's where you click a virtical bar and each one changes what you are,
-// being shown, I'm not saving to any variables as they largely arn't needed, trying to keep things simple.
+// This is used to change the layout in block 6, it's where you click a vertical bar and each one changes what you are,
+// being shown, I'm not saving to any variables as they largely aren't needed, trying to keep things simple.
 // Each one displays the page in only its way, to change it you have to click on the other Bar.
 
 // This shows the second block

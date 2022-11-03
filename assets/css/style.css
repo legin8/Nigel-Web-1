@@ -165,6 +165,10 @@ p.clickAwayBoxX {
     right: 30px;
 }
 
+.clickAwayBoxX:hover {
+    rotate: 90deg;
+}
+
 /* The Text in the box */
 div .clickAwayBoxText {
     position: fixed;
