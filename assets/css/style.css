@@ -1,30 +1,19 @@
 /* Start of General Tags !!!!!!!!!!!!!!!!!!!!!!*/
+/* the :root targets the whole dom */
 :root {
   --mainColor: #006EB6;
+  --blue-border: var(--mainColor) solid 1px;
 }
 
-
-
-body {
+/* This targets the body of the dom */
+body, a {
   color: var(--mainColor);
   margin: 0px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-img {
-  width: 100%;
-}
 
 
-
-
-p {
-  font-size: 20px;
-}
-
-a {
-  color: var(--mainColor);
-}
 
 ul {
   list-style: none;
@@ -44,7 +33,6 @@ a {
 /* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!*/
 /* Stops the bit at the top of header being transparent */
 header {
-
   padding-top: 10px;
   position: fixed;
   width: 100%;
