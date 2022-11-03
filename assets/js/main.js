@@ -10,12 +10,12 @@ const API_KEY = "cm4Mq6siY-LIWX3qZD3M6SU1t2Z3qoix0v8ObeVJHOc";
 
 // This API call returns the amount of urls needed for the array it's being used on.
 fetch(`${BASE_URL}/search/photos?query=coffee&per_page=${allImgs.length}&client_id=${API_KEY}`)
-.then(response => response.json())
-.then(data => {
-  allImgs.forEach((img, i) => {
-    img.style.backgroundImage = `url(${data.results[i].urls.regular})`;
+  .then(response => response.json())
+  .then(data => {
+    allImgs.forEach((img, i) => {
+      img.style.backgroundImage = `url(${data.results[i].urls.regular})`;
     });
-});
+  });
 
 
 

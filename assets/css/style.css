@@ -6,36 +6,36 @@
 
 
 body {
-    color: var(--mainColor);
-    margin: 0px;
-    font-family: Helvetica, Arial, sans-serif;
+  color: var(--mainColor);
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 
 
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 a {
-    color: var(--mainColor);
+  color: var(--mainColor);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .centre {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* End of General Tags !!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -45,31 +45,31 @@ a {
 /* Stops the bit at the top of header being transparent */
 header {
 
-    padding-top: 10px;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    z-index: 100;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
 }
 
 
 .topBar {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    border-top: var(--mainColor) solid 1px;
-    border-bottom: var(--mainColor) solid 1px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: var(--mainColor) solid 1px;
+  border-bottom: var(--mainColor) solid 1px;
 }
 
-.topBar > div > ul {
-    display: flex;
-    align-items: center;
+.topBar>div>ul {
+  display: flex;
+  align-items: center;
 }
 
 .topBar li {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 
@@ -78,101 +78,101 @@ header {
 
 /* Start of Fixed stuff on screen */
 .cupDiv {
-    top: 25%;
-    right: 0px;
-    width: 3%;
-    position: fixed;
-    padding: 30px 20px 30px 30px;
-    background-color: lightgray;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+  top: 25%;
+  right: 0px;
+  width: 3%;
+  position: fixed;
+  padding: 30px 20px 30px 30px;
+  background-color: lightgray;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
 }
 
 /* Makes background bigger */
 .cupDiv:hover {
-    width: 7%;
+  width: 7%;
 }
 
 /* affects the cup */
 .smallCup {
-    position: fixed;
-    width: 2.5%;
-    top: 25.8%;
+  position: fixed;
+  width: 2.5%;
+  top: 25.8%;
 }
 
 /* stuff for the text next to cup */
 .cupDiv p {
-    font-size: 12px;
-    position: absolute;
-    right: 5px;
-    top: 2%;
-    display: none;
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  top: 2%;
+  display: none;
 }
 
 /* makes text appear */
 .cupMainDiv:hover .cupDiv p {
-    display: block;
+  display: block;
 }
 
 .topBarCircle div {
-    color: white;
-    background-color: var(--mainColor);
-    border-radius: 50%;
-    text-align: center;
-    padding: 5px 8px;
+  color: white;
+  background-color: var(--mainColor);
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px 8px;
 }
 
 .topBarCircle {
-    padding: 0px 15px;
+  padding: 0px 15px;
 }
 
 /* hover for trolly */
 .topBarRightSide:hover .trollyHover {
-    display: block;
-    transition: 1s;
+  display: block;
+  transition: 1s;
 }
 
 .topBarRightSide:hover .trollyNormal {
-    display: none;
-    transition: 1s;
+  display: none;
+  transition: 1s;
 }
 
 .trollyHover {
-    display: none;
+  display: none;
 }
 
 .shoppingtrollyDot {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Click away box fixed at the bottom of the screen */
 
 .clickAwayBox {
-    position: fixed;
-    bottom: 0px;
-    background-color: white;
-    width: 100%;
-    height: 50px;
-    z-index: 10;
-    border-top: var(--mainColor) 1px solid;
-    display: flex;
+  position: fixed;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+  border-top: var(--mainColor) 1px solid;
+  display: flex;
 }
 
 /* The X in the corner */
 p.clickAwayBoxX {
-    position:fixed;
-    right: 30px;
+  position: fixed;
+  right: 30px;
 }
 
 .clickAwayBoxX:hover {
-    rotate: 90deg;
+  rotate: 90deg;
 }
 
 /* The Text in the box */
 div .clickAwayBoxText {
-    position: fixed;
-    left: 35%;
+  position: fixed;
+  left: 35%;
 }
 
 /* End of Fixed stuff on screen */
@@ -184,27 +184,29 @@ div .clickAwayBoxText {
 
 /* Grid for Block 1*/
 .block1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-    height: 100vh;
-    overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* Grid Column 1 */
 /* Block 1 both columns*/
-.block1FirstColumn, .block1secondColumn, .block1RightSideText.topButton {
-    display: flex;
+.block1FirstColumn,
+.block1secondColumn,
+.block1RightSideText.topButton {
+  display: flex;
 }
 
 /* This fixes the image and centers it */
 .imgToApi {
-    /*content: url(https://images.unsplash.com/photo-1518057111178-44a106bad636?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzQ3Mzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWV8ZW58MHx8fHwxNjY2NjU3Mzgy&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080);*/
-    background-position: center;
-    background-size: cover;
+  /*content: url(https://images.unsplash.com/photo-1518057111178-44a106bad636?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzQ3Mzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWV8ZW58MHx8fHwxNjY2NjU3Mzgy&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080);*/
+  background-position: center;
+  background-size: cover;
 }
 
-.block1Pic { 
+.block1Pic {
   width: 100%;
 }
 
@@ -218,41 +220,41 @@ div .clickAwayBoxText {
 /* Grid Column 2 */
 
 .block1secondColumn {
-    padding: 0px 70px;
-    flex-direction: column;
-    justify-content: center;
+  padding: 0px 70px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Heading block 1*/
 section.block1 h1 {
-    font-family: serif;
-    font-weight: 600;
-    font-size: 53px;
-    font-style: normal;
-    line-height: 62px;
+  font-family: serif;
+  font-weight: 600;
+  font-size: 53px;
+  font-style: normal;
+  line-height: 62px;
 }
 
 
 /* Block 1 buttons Start */
 div.topButton a {
-    border: var(--mainColor) solid 1px;
-    padding: 19px 0px;
-    font-size: 18px;
-    font-family: sans-serif;
-    width: 100%;
-    text-align: center;
+  border: var(--mainColor) solid 1px;
+  padding: 19px 0px;
+  font-size: 18px;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 /* Block 1 button 1 only */
 .buttonBlock1.button1 {
-    border-right: transparent;
+  border-right: transparent;
 }
 
 /* Block 1 hover effects for top buttons */
 .buttonBlock1:hover {
-    background-color: var(--mainColor);
-    color: white;
-    transition: 500ms;
+  background-color: var(--mainColor);
+  color: white;
+  transition: 500ms;
 }
 
 
@@ -265,25 +267,25 @@ div.topButton a {
 
 /* Block 1.5 Start */
 .block1Nav {
-    border-top: var(--mainColor) solid 1px;
-    border-bottom: var(--mainColor) solid 1px;
+  border-top: var(--mainColor) solid 1px;
+  border-bottom: var(--mainColor) solid 1px;
 }
 
 nav.block1Nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 nav.block1Nav ul li {
-    padding: 0 14px;
+  padding: 0 14px;
 }
 
 /* this is the dot between the things on the nav bar */
 .navBarDot::before {
-    content: "•";
-    font-size: 9px;
+  content: "•";
+  font-size: 9px;
 }
 
 /* Block 1.5 Ends */
@@ -295,70 +297,71 @@ nav.block1Nav ul li {
 /* Start of Block 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .block2 {
-    text-align: center;
-    position: relative;
+  text-align: center;
+  position: relative;
 }
 
 
 
 /* This is for the picture of the bird */
 .bird1 {
-    width: 35%;
-    margin-bottom: -40px;
+  width: 35%;
+  margin-bottom: -40px;
 }
 
 /* This is for the block Heading */
 .block2 h2 {
-    font-size: 50px;
+  font-size: 50px;
 
 }
 
 /* This is for the block of text under the heading */
 .block2 p {
-    font-size: 20px;
-    padding: 0px 280px;
-    margin-bottom: 20px;
-    padding-bottom: 100px;
+  font-size: 20px;
+  padding: 0px 280px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 /* Start of Spinner with text and arrow */
 /* Spinner itself */
 .block2Spinner {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    align-content: flex-end;
-    justify-content: flex-end;
-    z-index: 88;
-    
-    bottom: -90px;
-    right: 170px;
-    
-    width: 215px;
-    height: 215px;
-    transform: rotate(20deg);
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-content: flex-end;
+  justify-content: flex-end;
+  z-index: 88;
+
+  bottom: -90px;
+  right: 170px;
+
+  width: 215px;
+  height: 215px;
+  transform: rotate(20deg);
 }
 
 
-.block2Circle, .block2TextWithArrow {
-    position: absolute;
+.block2Circle,
+.block2TextWithArrow {
+  position: absolute;
 }
 
 .block2TextWithArrow {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Just for the text and arrow */
 .block2JustTextWithArrow {
-    display: flex;
-    flex-direction: column;
-    font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
 }
 
 
@@ -372,65 +375,68 @@ nav.block1Nav ul li {
 
 /* General tag for block 3 starting the */
 .block3Blocks {
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    border-top: var(--mainColor) solid 1px;
-    border-bottom: var(--mainColor) solid 1px;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  border-top: var(--mainColor) solid 1px;
+  border-bottom: var(--mainColor) solid 1px;
 }
 
 /* Block with heading above grid */
 .block3TopHeadingBlock {
-    border-top: var(--mainColor) solid 1px;
-    font-size: 30px;
-    text-align: center;
-    padding: 40px;
+  border-top: var(--mainColor) solid 1px;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
 }
 
 /* general for all p elements */
 .block3 p {
-    font-size: 16px;
-    text-align: center;
-    padding: 5px 50px 60px 50px;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 50px 60px 50px;
 }
 
 /* general for all images in grid */
 .block3Img {
-    width: 20%;
-    display: flex;
+  width: 20%;
+  display: flex;
 }
 
 /* left block of the 3 columns */
 .block3Gridleft {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* for each of the 4 small blocks in the 3 columns */
-.block3LeftTop, .block3LeftBottom, .block3RightTop, .block3RightBottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 10px;
-    line-height: 30px;
+.block3LeftTop,
+.block3LeftBottom,
+.block3RightTop,
+.block3RightBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10px;
+  line-height: 30px;
 }
 
 /* for the middle picture in column 2 */
 .block3MiddlePic {
-    border: var(--mainColor) solid 1px;
-    display: flex;
+  border: var(--mainColor) solid 1px;
+  display: flex;
 }
 
 /* for the right grid in column 3 */
 .block3GridsRight {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* extra style for 1 boarder between the two blocks  on each side */
 .block3GridLineBetween {
-    border-top: var(--mainColor) solid 1px;
+  border-top: var(--mainColor) solid 1px;
 }
 
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -446,76 +452,76 @@ nav.block1Nav ul li {
 /* Vertical Bar */
 
 .block4VerticalBar {
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    direction: rtl;
-    transform: rotateZ(180deg);
-    font-size: 30px;
-    padding: 60px 10px;
-    border-left: var(--mainColor) solid 1px;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  direction: rtl;
+  transform: rotateZ(180deg);
+  font-size: 30px;
+  padding: 60px 10px;
+  border-left: var(--mainColor) solid 1px;
 }
 
 /* General */
 .block4Grid {
-    display: grid;
-    grid-template-columns: 9% 91%;
-    grid-template-rows: 1fr;
-    border-bottom: var(--mainColor) solid 1px;
+  display: grid;
+  grid-template-columns: 9% 91%;
+  grid-template-rows: 1fr;
+  border-bottom: var(--mainColor) solid 1px;
 }
 
 /* Products */
 .block4Grid img {
-    width: 75%;
+  width: 75%;
 }
 
 .block4Products {
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 5%;
-    padding-top: 70px;
-    padding-bottom: 80px;
-    text-align: center;
-    overflow: hidden;
-    height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5%;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  text-align: center;
+  overflow: hidden;
+  height: 60vh;
 }
 
 /* block 4 buttons */
 .block4Grid button {
-    opacity: 0;
-    padding: 10px;
-    font-size: 15px;
-    transition: 0.5s;
+  opacity: 0;
+  padding: 10px;
+  font-size: 15px;
+  transition: 0.5s;
 }
 
 /* button 1 */
 .product1:hover .buttons1 button {
-    opacity: 1;
-    color: var(--mainColor);
-    border: lightgray solid 1px;
-    background-color: white;
-    font-size: 15px;
-    padding: 10px;
+  opacity: 1;
+  color: var(--mainColor);
+  border: lightgray solid 1px;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
 }
 
 /* button 2 */
 .product2:hover .buttons2 button {
-    opacity: 1;
-    color: var(--mainColor);
-    border: lightgray solid 1px;
-    background-color: white;
-    font-size: 15px;
-    padding: 10px;
+  opacity: 1;
+  color: var(--mainColor);
+  border: lightgray solid 1px;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
 }
 
 /* button 3 */
 .product3:hover .buttons3 button {
-    opacity: 1;
-    color: var(--mainColor);
-    border: lightgray solid 1px;
-    background-color: white;
-    font-size: 15px;
-    padding: 10px;
+  opacity: 1;
+  color: var(--mainColor);
+  border: lightgray solid 1px;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
 }
 
 
@@ -523,50 +529,52 @@ nav.block1Nav ul li {
 /* block under products aka block 4 footer */
 
 .block4Footer {
-    text-align: center;
-    border-top: var(--mainColor) solid 1px;
-    padding: 45px;
+  text-align: center;
+  border-top: var(--mainColor) solid 1px;
+  padding: 45px;
 }
 
 /* heading befor text */
 .block4Footer h3 {
-    font-size: 38px;
+  font-size: 38px;
 }
 
 /* text below heading */
 .block4Footer a {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* little arrow thats part of text */
 .block4Footer img {
-    width: 1.5%;
+  width: 1.5%;
 }
 
 /* sqiggle under Feeling peckish */
 .block4Sqiggle::after {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    content: url(https://cdn.shopify.com/s/files/1/1530/0579/t/28/assets/squiggle.svg?v=149664987642063442131637456742);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  content: url(https://cdn.shopify.com/s/files/1/1530/0579/t/28/assets/squiggle.svg?v=149664987642063442131637456742);
 }
 
 
-.product1, .product2, .product3 {
-    height: 50vh;
-    width: 25vh;
-    padding-left: 180px;
-    display: flex;
-    flex-direction: column;
+.product1,
+.product2,
+.product3 {
+  height: 50vh;
+  width: 25vh;
+  padding-left: 180px;
+  display: flex;
+  flex-direction: column;
 }
 
 .productImg {
-    width: 20vh;
-    height: 40vh;
+  width: 20vh;
+  height: 40vh;
 }
 
 .block4Texts {
-    display: block;
+  display: block;
 }
 
 
@@ -581,54 +589,55 @@ nav.block1Nav ul li {
 /* Start of Block 5 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* general for block 5 */
 .block5 {
-    display: grid;
-    grid-template-rows: 70% 30%;
+  display: grid;
+  grid-template-rows: 70% 30%;
 }
 
 /* for picture div at top */
 .block5PictureDiv {
-    padding: 70px 70px 70px 70px;
-    left: 50px;
-    right: 50px;
-    height: 600px;
+  padding: 70px 70px 70px 70px;
+  left: 50px;
+  right: 50px;
+  height: 600px;
 }
 
 /* for the circle */
 .block5Circle {
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    bottom: 70px;
-    right: 400px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  bottom: 70px;
+  right: 400px;
 }
- /* for the circle */
+
+/* for the circle */
 .block5StuffInSideCircle {
-    position: absolute;
-    bottom: 50px;
-    right: 40px;
-    rotate: -15deg;
-    
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+  rotate: -15deg;
+
 }
 
 
 
 .block5Circle {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .arrow {
-    width: 2%;
-    padding-left: 20px;
+  width: 2%;
+  padding-left: 20px;
 }
 
 .block5Text {
-    text-align: center;
+  text-align: center;
 
 }
 
 .block5Heading {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 
@@ -641,78 +650,82 @@ nav.block1Nav ul li {
 /* Start of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .block6TopBox {
-    border-top: var(--mainColor) solid 1px;
-    border-bottom: var(--mainColor) solid 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  border-top: var(--mainColor) solid 1px;
+  border-bottom: var(--mainColor) solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .block6TopBoxHeader1 {
-    width: 50%;
+  width: 50%;
 }
 
 .block6TopBoxHeader2 a {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .block6Arrow {
-    width: 10%;
+  width: 10%;
 }
 
 .block6TopBox h4 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .block6TopBox h5 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 
 
 /* Start of main boxes */
 .block6MainBlock {
-    display: grid;
-    grid-template-columns: 7% 86% 7%;
+  display: grid;
+  grid-template-columns: 7% 86% 7%;
 }
 
-.block6Part1, .block6Part2 {
-    border-bottom: var(--mainColor) solid 1px;
-    border-right: var(--mainColor) solid 1px;
+.block6Part1,
+.block6Part2 {
+  border-bottom: var(--mainColor) solid 1px;
+  border-right: var(--mainColor) solid 1px;
 }
 
 
 .block6Part2 {
-    display: none;
+  display: none;
 }
 
 
 .block6VerticalBlock {
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    direction: rtl;
-    transform: rotateZ(180deg);
-    font-size: 30px;
-    padding: 60px 10px;
-    border-left: var(--mainColor) solid 1px;
-    border-top: var(--mainColor) solid 1px;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  direction: rtl;
+  transform: rotateZ(180deg);
+  font-size: 30px;
+  padding: 60px 10px;
+  border-left: var(--mainColor) solid 1px;
+  border-top: var(--mainColor) solid 1px;
 }
+
 /* picture in main left grid with padding */
-.block6GridA, .block6GridB {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 50px 60px;
+.block6GridA,
+.block6GridB {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 50px 60px;
 }
 
 .b6f {
-    display: flex;
+  display: flex;
 }
 
 /* box next to picture in grid */
-.block6GridApartB, .block6GridBpartB {
-    padding-left: 30px;
-    margin: 0px;
+.block6GridApartB,
+.block6GridBpartB {
+  padding-left: 30px;
+  margin: 0px;
 }
 
 
@@ -730,69 +743,69 @@ nav.block1Nav ul li {
 /* Start of Block 7 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* base grid of block 7 */
 .block7GridBase {
-    display: grid;
-    grid-template-columns: 40% 60%;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
 /* line between left and right column */
 .block7Box1 {
-    border-right: var(--mainColor) 1px solid;
-    padding: 60px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  border-right: var(--mainColor) 1px solid;
+  padding: 60px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* the birdy */
 .block7Birdy {
-    width: 70%;
-    position: relative;
-    bottom: -180px;
-    left: -120px;
+  width: 70%;
+  position: relative;
+  bottom: -180px;
+  left: -120px;
 }
 
 /* just for the arrow in block 7 */
 .block7Arrow {
-    width: 12%;
-    display: none;
+  width: 12%;
+  display: none;
 }
 
 /* hover effect to show the arrows */
 /* Arrow 1 */
 .b7B1:hover .b7Arrow1 {
-    display: block;
-    transition: 0.5s;
+  display: block;
+  transition: 0.5s;
 }
 
 /* Arrow 2 */
 .b7B2:hover .b7Arrow2 {
-    display: block;
-    transition: 0.5s;
+  display: block;
+  transition: 0.5s;
 }
 
 /* Arrow 3 */
 .b7B3:hover .b7Arrow3 {
-    display: block;
-    transition: 0.5s;
+  display: block;
+  transition: 0.5s;
 }
 
 /* middle box on the right column */
 .block7Box3 {
-    border-top: var(--mainColor) 1px solid;
-    border-bottom: var(--mainColor) 1px solid;
+  border-top: var(--mainColor) 1px solid;
+  border-bottom: var(--mainColor) 1px solid;
 }
 
 /* each box in right column */
 .block7RightBoxes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px 80px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 80px;
+
 }
 
 .block7RightArrowDiv {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 
@@ -820,59 +833,60 @@ nav.block1Nav ul li {
 
 
 /* main grid of block 8 */
-.block8Main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    border-top: var(--mainColor) solid 1px;
-    padding-top: 70px;
+.block8Main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  border-top: var(--mainColor) solid 1px;
+  padding-top: 70px;
 }
 
 /* block 8 leftColumn */
 .block8leftColumn {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    padding-left: 18%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  padding-left: 18%;
 }
 
 
 
 /* block 8 rightColumn */
 .block8rightColumn {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    padding-right: 20%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  padding-right: 20%;
 }
 
 /* block 8 Heading */
 .block8Heading {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 /* block 8 text */
 .block8Text {
-    font-size: 27px;   
+  font-size: 27px;
 }
 
 /* block 8 button div */
 .block8ButtonDiv {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 50px;
 }
 
 .block8Button:hover {
-    color: white;
-    background-color: var(--mainColor);
-    transition: 0.5s;
+  color: white;
+  background-color: var(--mainColor);
+  transition: 0.5s;
 }
 
 /* block 8 button */
 .block8Button {
-    border: var(--mainColor) 1px solid;
-    padding: 20px;
+  border: var(--mainColor) 1px solid;
+  padding: 20px;
 }
+
 /* End of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -888,126 +902,130 @@ nav.block1Nav ul li {
 /* Start of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* sets margin and background color for the footer */
 footer {
-    background-color: var(--mainColor);
-    margin: 0px;
+  background-color: var(--mainColor);
+  margin: 0px;
 }
 
 /* this makes the footer a grid with 2 columns */
 .footerBaseLevel {
-    display: grid;
-    grid-template-columns: 76% 24%;
+  display: grid;
+  grid-template-columns: 76% 24%;
 }
 
 /* this makes the left column flex in a column and sets 1 border */
 .footerLeftColumn {
-    display: flex;
-    flex-direction: column;
-    border-right: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  border-right: white 1px solid;
 }
 
 /* this sets each level of the child of footerLeft to be flex in a row */
-.footerLeftColumnLevel1, .footerLeftColumnLevel2, .footerLeftColumnLeve3 {
-    display: flex;
-    flex-direction: row;
+.footerLeftColumnLevel1,
+.footerLeftColumnLevel2,
+.footerLeftColumnLeve3 {
+  display: flex;
+  flex-direction: row;
 }
 
 /* sets this block of left column to grid and makes it 2 columns */
 .footerLeftColumnLevel1 {
-    border-bottom: white solid 1px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 /* sets the second level of left column bottom boarder and makes it grid */
 .footerLeftColumnLevel2 {
-    border-bottom: white solid 1px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* sets boarder on left side */
 .footerBorderLeft {
-    border-left: white solid 1px;
+  border-left: white solid 1px;
 }
 
 /* sets text color to white */
-.whiteText, .whiteText a {
-    color: white;
+.whiteText,
+.whiteText a {
+  color: white;
 }
 
 /* sets padding for the left column blocks */
 .footerPaddingLeftBlocks {
-    padding: 40px 40px 30px 20px;
+  padding: 40px 40px 30px 20px;
 }
 
 /* sets text size and line height */
 .footerBaseLevel li {
-    line-height: 30px;
-    font-size: 14px;
+  line-height: 30px;
+  font-size: 14px;
 }
 
 /* padding for top block left with input */
 .footerBaseLevel input {
-    padding: 20px 225px;
+  padding: 20px 225px;
 }
 
 /* sets text size and width for top left block heading */
 .footerBaseLevel h4 {
-    font-size: 22px;
-    width: 70%;
+  font-size: 22px;
+  width: 70%;
 }
 
 /* sets text size for stuff other wasn't targeting */
-.footerLeftColumnLeve3 p, .footerLeftColumnLeve3 a {
-    font-size: 14px;
+.footerLeftColumnLeve3 p,
+.footerLeftColumnLeve3 a {
+  font-size: 14px;
 }
 
 /* sets bottom left block to flex and aligns stuff with padding */
 .footerLeftColumnLeve3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
 
 /* sets right column to grid */
 .footerRight {
-    display: grid;
-    grid-template-columns: 65% 35%;
+  display: grid;
+  grid-template-columns: 65% 35%;
 }
 
 /* makes a grid of 3 rows in footer right block 1 */
 .footerRightBlock1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-right: white 1px solid;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-right: white 1px solid;
 }
 
 /* make each box on right column flex and centers content */
-.footerRightBlock1 > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footerRightBlock1>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sets the borders between the boxes on the right column */
 .footerRightFirstblockMiddle {
-    border-top: white 1px solid;
-    border-bottom: white 1px solid;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
 }
 
 /* footer right column second block */
 .footerRightBlock2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
 }
 
 /* sets footer right columns pics width */
 .footerPic {
-    width: 40%;
+  width: 40%;
 }
 
 /* End of Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
