@@ -42,19 +42,35 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 14px;
   border-top: var(--mainColor) solid 1px;
   border-bottom: var(--mainColor) solid 1px;
 }
 
+/* This puts each entry into the lists in the top bar next to each other */
 .topBar>div>ul {
   display: flex;
-  align-items: center;
 }
 
+/* This adds space between the list items */
 .topBar li {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
+/* These 3 position the content of the nav bar where it should be */
+.topBarLeft {
+  margin-right: auto;
+}
+
+.topBarCenter {
+  margin:auto;
+}
+
+.topBarRight {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 
 /* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
