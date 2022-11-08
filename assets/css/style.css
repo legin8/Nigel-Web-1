@@ -27,7 +27,11 @@ a {
 
 
 
-/* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+/* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* Nav bar Fixed to the top of the screen */
 /* Stops the bit at the top of header being transparent */
 header {
   padding-top: 10px;
@@ -72,7 +76,46 @@ header {
   margin-left: auto;
 }
 
-/* The cup that fills itself, Right of the screen */
+/* This makes the background blue and a circle behind the 0 on the nav bar, top right */
+.topBarCircle div {
+  color: white;
+  background-color: var(--mainColor);
+  border-radius: 100%;
+  text-align: center;
+  padding: 5px 9px;
+}
+
+
+/* Adds space between the right of the screen and the shopping trolly with the blue circle*/
+.topBarCircle {
+  padding: 0px 15px;
+}
+
+/* This shows the blue trolly */
+.shoppingTrolly:hover .trollyHover {
+  display: block;
+}
+
+/* This hides the white trolly */
+.shoppingTrolly:hover .trollyNormal {
+  display: none;
+}
+
+/* This hides the blue trolly at the start */
+.trollyHover {
+  display: none;
+}
+
+/* This sets the trollys and the blue circle to flex */
+.shoppingTrolly {
+  display: flex;
+}
+
+
+
+
+
+/* The cup that fills itself, Right of the screen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* positions the the with the background for the cup */
 .cupMainDiv {
   position: fixed;
@@ -96,32 +139,22 @@ header {
   right: 0px;
 }
 
-/* Makes background bigger and shows the text */
+/* Makes background bigger for the side cup and shows the text */
 .cupDiv:hover {
   width: 85px;
 }
 
+/* It moves the cup svg at the side of the screen  */
 .cupDiv:hover .smallCup {
   right: 50px;
 }
 
-
-/* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-
-
-
-
-
-/* affects the cup */
-
-
-/* stuff for the text next to cup */
+/* This affects the p tag after the cup svg */
 .cupDiv p {
   font-size: 12px;
   position: absolute;
   right: 5px;
-  top: 2%;
+  top: 0px;
   display: none;
 }
 
@@ -130,47 +163,19 @@ header {
   display: block;
 }
 
-.topBarCircle div {
-  color: white;
-  background-color: var(--mainColor);
-  border-radius: 50%;
-  text-align: center;
-  padding: 5px 8px;
-}
 
-.topBarCircle {
-  padding: 0px 15px;
-}
 
-/* hover for trolly */
-.topBarRightSide:hover .trollyHover {
-  display: block;
-  transition: 1s;
-}
 
-.topBarRightSide:hover .trollyNormal {
-  display: none;
-  transition: 1s;
-}
 
-.trollyHover {
-  display: none;
-}
-
-.shoppingtrollyDot {
-  display: flex;
-  flex-direction: row;
-}
-
-/* Click away box fixed at the bottom of the screen */
-
+/* Click away box fixed at the bottom of the screen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* Styles for the box and location on the screen ect */
 .clickAwayBox {
   position: fixed;
   bottom: 0px;
   background-color: white;
   width: 100%;
   height: 50px;
-  z-index: 10;
+  z-index: 100;
   border-top: var(--mainColor) 1px solid;
   display: flex;
 }
@@ -181,6 +186,7 @@ p.clickAwayBoxX {
   right: 30px;
 }
 
+/* This turns the X when you hover on it */
 .clickAwayBoxX:hover {
   rotate: 90deg;
 }
@@ -188,8 +194,39 @@ p.clickAwayBoxX {
 /* The Text in the box */
 div .clickAwayBoxText {
   position: fixed;
-  left: 35%;
+  left: 43%;
 }
+
+/* Sets the size of the text in the fixed box at the bottom of the screen */
+.clickAwayBoxText {
+  font-size: 15px;
+}
+
+/* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* End of Fixed stuff on screen */
 
