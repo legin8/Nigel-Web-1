@@ -325,35 +325,36 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
+/* Centers the text in block 2 */
 .block2 {
   text-align: center;
-  position: relative;
 }
-
-
 
 /* This is for the picture of the bird */
 .bird1 {
-  width: 35%;
+  width: 450px;
   margin-bottom: -40px;
+  padding-top: 5px;
 }
 
-/* This is for the block Heading */
+
+/* This is for the block 2 Heading */
 .block2 h2 {
   font-size: 50px;
-
+  font-weight: 400;
 }
 
 /* This is for the block of text under the heading */
 .block2 p {
   font-size: 20px;
-  padding: 0px 280px;
-  margin-bottom: 20px;
-  padding-bottom: 100px;
+  width: 780px;
+  padding-bottom: 200px;
+  margin: auto;
 }
 
-/* Start of Spinner with text and arrow */
+
+
+/* Start of Spinner with text and arrow !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* Spinner itself */
 .block2Spinner {
   display: flex;
