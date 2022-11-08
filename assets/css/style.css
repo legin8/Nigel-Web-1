@@ -73,13 +73,14 @@ header {
 }
 
 /* The cup that fills itself, Right of the screen */
-
+/* positions the the with the background for the cup */
 .cupMainDiv {
   position: fixed;
   top: 170px;
   right: 0px;
 }
 
+/* This is the size of the containing div with the shape of it */
 .cupDiv {
   padding: 20px 25px;
   background-color: lightgray;
@@ -87,6 +88,7 @@ header {
   border-bottom-left-radius: 100%;
 }
 
+/* This is the location of the self filling cup */
 .smallCup {
   position: fixed;
   width: 35px;
@@ -94,15 +96,22 @@ header {
   right: 0px;
 }
 
+/* Makes background bigger and shows the text */
+.cupDiv:hover {
+  width: 85px;
+}
+
+.cupDiv:hover .smallCup {
+  right: 50px;
+}
+
+
 /* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 
 
-/* Makes background bigger */
-.cupDiv:hover {
-  width: 7%;
-}
+
 
 /* affects the cup */
 
