@@ -87,6 +87,13 @@ header {
   border-bottom-left-radius: 100%;
 }
 
+.smallCup {
+  position: fixed;
+  width: 35px;
+  top: 175px;
+  right: 0px;
+}
+
 /* End of Header Tags !!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -98,11 +105,7 @@ header {
 }
 
 /* affects the cup */
-.smallCup {
-  position: fixed;
-  width: 2.5%;
-  top: 25.8%;
-}
+
 
 /* stuff for the text next to cup */
 .cupDiv p {
