@@ -348,7 +348,6 @@ nav.block1Nav ul li {
 .block2 p {
   font-size: 20px;
   width: 780px;
-  padding-bottom: 200px;
   margin: auto;
 }
 
@@ -357,19 +356,19 @@ nav.block1Nav ul li {
 /* Start of Spinner with text and arrow !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* Spinner itself */
 .block2Spinner {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  align-content: flex-end;
-  justify-content: flex-end;
-  z-index: 88;
+  position: relative;
+  margin-left: auto;
+  right: 350px;
+  bottom: -50px;
 
-  bottom: -90px;
-  right: 170px;
+
+
+ 
+ 
 
   width: 215px;
   height: 215px;
-  transform: rotate(20deg);
+  
 }
 
 
