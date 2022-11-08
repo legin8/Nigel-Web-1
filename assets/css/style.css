@@ -12,22 +12,19 @@ body, a {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-
-
-
+/* This gets rid of the dot for all ul lists */
 ul {
   list-style: none;
 }
 
-.centre {
-  text-align: center;
-}
-
+/* This gets rid of all the underlines on the a tags */
 a {
   text-decoration: none;
 }
 
 /* End of General Tags !!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
 
 
 /* Start of Header Tags !!!!!!!!!!!!!!!!!!!!!!!*/
@@ -40,11 +37,9 @@ header {
   z-index: 100;
 }
 
-
+/* This is for the top bar and everything it holds */
 .topBar {
   display: flex;
-  flex-direction: row;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   border-top: var(--mainColor) solid 1px;
