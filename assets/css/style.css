@@ -357,7 +357,8 @@ nav.block1Nav ul li {
 .block2 p {
   font-size: 20px;
   width: 780px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -369,7 +370,7 @@ nav.block1Nav ul li {
   display: flex;
   justify-content: flex-end;
   right: 100px;
-  bottom: -40px;
+  bottom: -90px;
 }  
 
 /* makes the circle spin with the keyframes above */
@@ -404,6 +405,15 @@ nav.block1Nav ul li {
 
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+/* Block with heading above grid */
+.block3TopHeadingBlock {
+  border-top: var(--mainColor) solid 1px;
+  font-size: 50px;
+  text-align: center;
+  padding: 80px 24px;
+  font-weight: 100;
+}
+
 /* General tag for block 3 starting the */
 .block3Blocks {
   display: grid;
@@ -412,13 +422,7 @@ nav.block1Nav ul li {
   border-bottom: var(--mainColor) solid 1px;
 }
 
-/* Block with heading above grid */
-.block3TopHeadingBlock {
-  border-top: var(--mainColor) solid 1px;
-  font-size: 30px;
-  text-align: center;
-  padding: 40px;
-}
+
 
 /* general for all p elements */
 .block3 p {
