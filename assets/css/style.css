@@ -405,75 +405,80 @@ nav.block1Nav ul li {
 
 /* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* Block with heading above grid */
+/* Heading block above the main grid */
 .block3TopHeadingBlock {
   border-top: var(--mainColor) solid 1px;
   font-size: 50px;
   text-align: center;
   padding: 80px 24px;
   font-weight: 100;
+  margin-bottom: 0px;
 }
 
-/* General tag for block 3 starting the */
-.block3Blocks {
+/* This is the container for the main grid in block 3 */
+.block3Grid {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  border-top: var(--mainColor) solid 1px;
-  border-bottom: var(--mainColor) solid 1px;
+  border-top: var(--blue-border);
+  border-bottom: var(--blue-border);
+  height: 700px;
 }
 
+/* Adds padding to all the block 3 divs with a pic and text */
+.block3GridPadding {
+  padding: 40px;
+}
 
-
-/* general for all p elements */
-.block3 p {
+/* For all p elements in block 3*/
+.block3Grid p {
   font-size: 16px;
   text-align: center;
-  padding: 5px 50px 60px 50px;
+  padding: 5px 15px 60px 15px;
 }
 
-/* general for all images in grid */
-.block3Img {
-  width: 20%;
-  display: flex;
+/* Image sizes in grid, smaller imgs*/
+.block3Img1 {
+  width: 65px;
 }
 
-/* left block of the 3 columns */
-.block3Gridleft {
+.block3Img2 {
+  width: 120px;
+}
+
+.block3Img3 {
+  width: 70px;
+}
+
+.block3Img4 {
+  width: 80px;
+}
+
+
+/* Left column in grid */
+.block3GridLeft {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 /* for each of the 4 small blocks in the 3 columns */
-.block3LeftTop,
-.block3LeftBottom,
-.block3RightTop,
-.block3RightBottom {
+.block3GridCell {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 40px 10px;
   line-height: 30px;
 }
 
 /* for the middle picture in column 2 */
 .block3MiddlePic {
-  border: var(--mainColor) solid 1px;
+  border: var(--blue-border);
   display: flex;
-}
-
-/* for the right grid in column 3 */
-.block3GridsRight {
-  display: flex;
-  flex-direction: column;
 }
 
 /* extra style for 1 boarder between the two blocks  on each side */
 .block3GridLineBetween {
-  border-top: var(--mainColor) solid 1px;
+  border-top: var(--blue-border);
 }
-
 /* End of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
