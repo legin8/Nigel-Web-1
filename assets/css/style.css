@@ -28,6 +28,16 @@ a {
   text-decoration: none;
 }
 
+/* Used to make the circles spin, got help from Decan on this one*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* End of General Tags !!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -360,10 +370,20 @@ nav.block1Nav ul li {
   justify-content: flex-end;
   right: 100px;
   bottom: -40px;
+}  
+
+/* makes the circle spin with the keyframes above */
+.block2Circle {
+  transform: rotate(10deg);
+  animation: rotation 15s infinite linear;
 }
 
+/* changes the background of the spinning circle on hover */
+.block2Circle:hover {
+  background-color: aquamarine;
+}
 
-/* Just for the text and arrow */
+/* Just for the text and arrow inside the spinning circle */
 .block2JustTextWithArrow {
   display: flex;
   flex-direction: column;
@@ -376,12 +396,13 @@ nav.block1Nav ul li {
 
 
 
-/* End of Block 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 
 
-/* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* Start of Block 3 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* General tag for block 3 starting the */
 .block3Blocks {
