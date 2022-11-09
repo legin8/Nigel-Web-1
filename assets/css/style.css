@@ -488,26 +488,46 @@ nav.block1Nav ul li {
 
 
 /* Start of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* Grid for block 4 */
+.block4Grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  border-bottom: var(--blue-border);
+}
 
-/* Vertical Bar */
-
+/* Vertical Bar, rotates text and sets margins */
 .block4VerticalBar {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   direction: rtl;
   transform: rotateZ(180deg);
-  font-size: 30px;
-  padding: 60px 10px;
-  border-left: var(--mainColor) solid 1px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: var(--blue-border);
 }
 
-/* General */
-.block4Grid {
-  display: grid;
-  grid-template-columns: 9% 91%;
-  grid-template-rows: 1fr;
-  border-bottom: var(--mainColor) solid 1px;
+/* Sets space at top and the boldness and text size */
+.block4VerticalText {
+  position: relative;
+  font-weight: 100;
+  font-size: 38px;
+  top: -65px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Products */
 .block4Grid img {
