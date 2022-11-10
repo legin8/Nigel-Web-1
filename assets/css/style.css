@@ -407,7 +407,7 @@ nav.block1Nav ul li {
 
 /* Heading block above the main grid */
 .block3TopHeadingBlock {
-  border-top: var(--mainColor) solid 1px;
+  border-top: var(--blue-border);
   font-size: 50px;
   text-align: center;
   padding: 80px 24px;
@@ -514,7 +514,17 @@ nav.block1Nav ul li {
   top: -65px
 }
 
-
+/* This is the layout for block 4 containing the grid with the products */
+.block4Products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  padding: 70px;
+  text-align: center;
+  height: 80vh;
+  align-items: center;
+  justify-items: center;
+}
 
 
 
@@ -534,17 +544,7 @@ nav.block1Nav ul li {
   width: 75%;
 }
 
-.block4Products {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 5%;
-  padding-top: 70px;
-  padding-bottom: 80px;
-  text-align: center;
-  overflow: hidden;
-  height: 60vh;
-}
+
 
 /* block 4 buttons */
 .block4Grid button {
@@ -623,7 +623,7 @@ nav.block1Nav ul li {
 .product3 {
   height: 50vh;
   width: 25vh;
-  padding-left: 180px;
+  
   display: flex;
   flex-direction: column;
 }
