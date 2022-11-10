@@ -526,8 +526,11 @@ nav.block1Nav ul li {
   justify-items: center;
 }
 
-
-
+/* This makes the pictures in block 4 grid a relative size height and width based on the height of the screen */
+.productImg {
+  height: 60vh;
+  width: 30vh;
+}
 
 
 
@@ -618,20 +621,9 @@ nav.block1Nav ul li {
 }
 
 
-.product1,
-.product2,
-.product3 {
-  height: 50vh;
-  width: 25vh;
-  
-  display: flex;
-  flex-direction: column;
-}
 
-.productImg {
-  width: 20vh;
-  height: 40vh;
-}
+
+
 
 .block4Texts {
   display: block;
