@@ -3,6 +3,7 @@
 :root {
   --mainColor: #006EB6;
   --blue-border: var(--mainColor) solid 1px;
+  --block4-buttons: lightgray solid 1px;
 }
 
 /* This fixes the image and centers it Used through out the page*/
@@ -504,6 +505,7 @@ nav.block1Nav ul li {
   margin-left: auto;
   margin-right: auto;
   border-left: var(--blue-border);
+  
 }
 
 /* Sets space at top and the boldness and text size */
@@ -532,24 +534,12 @@ nav.block1Nav ul li {
   width: 30vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Products */
-.block4Grid img {
-  width: 75%;
+/* This will style the heading of each picture */
+.block4Texts h4 {
+  font-size: 28px;
 }
 
-
-
-/* block 4 buttons */
+/* This styles the buttons that are hidden until you hover over the div it's in */
 .block4Grid button {
   opacity: 0;
   padding: 10px;
@@ -557,31 +547,31 @@ nav.block1Nav ul li {
   transition: 0.5s;
 }
 
-/* button 1 */
+/* hover effect for product 1 */
 .product1:hover .buttons1 button {
   opacity: 1;
   color: var(--mainColor);
-  border: lightgray solid 1px;
+  border: var(--block4-buttons);
   background-color: white;
   font-size: 15px;
   padding: 10px;
 }
 
-/* button 2 */
+/* hover effect for product 2 */
 .product2:hover .buttons2 button {
   opacity: 1;
   color: var(--mainColor);
-  border: lightgray solid 1px;
+  border: var(--block4-buttons);
   background-color: white;
   font-size: 15px;
   padding: 10px;
 }
 
-/* button 3 */
+/* hover effect for product 3 */
 .product3:hover .buttons3 button {
   opacity: 1;
   color: var(--mainColor);
-  border: lightgray solid 1px;
+  border: var(--block4-buttons);
   background-color: white;
   font-size: 15px;
   padding: 10px;
@@ -589,17 +579,18 @@ nav.block1Nav ul li {
 
 
 
-/* block under products aka block 4 footer */
-
+/* block under products aka block 4 footer!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Styles the border for this block */
 .block4Footer {
   text-align: center;
-  border-top: var(--mainColor) solid 1px;
+  border-top: var(--blue-border);
   padding: 45px;
 }
 
-/* heading befor text */
+/* heading before text */
 .block4Footer h3 {
   font-size: 38px;
+  font-weight: 100;
 }
 
 /* text below heading */
@@ -609,28 +600,31 @@ nav.block1Nav ul li {
 
 /* little arrow thats part of text */
 .block4Footer img {
-  width: 1.5%;
+  width: 17px;
+}
+
+
+
+/* This makes the sqiggles go next to each other */
+.sqiggleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* sqiggle under Feeling peckish */
-.block4Sqiggle::after {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.sqiggle::after {
   content: url(https://cdn.shopify.com/s/files/1/1530/0579/t/28/assets/squiggle.svg?v=149664987642063442131637456742);
 }
 
 
-
-
-
-
-.block4Texts {
-  display: block;
-}
-
-
 /* End of Block 4 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
 
 
 
