@@ -736,7 +736,6 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   display: flex;
 }
 
-
 /* Sets the size of the arrow next to the text and adds space between them */
 .block6Arrow {
   width: 15px;
@@ -752,21 +751,25 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   width: 700px;
 }
 
+/* positions the sqiggle */
 .sqiggleRow2 {
   display: flex;
   position: relative;
   bottom: 20px;
 }
 
+/* makes the sqiggle stop where I want it to */
 .secondSqiggleBlock {
   width: 230px;
   overflow: hidden;
 }
 
+/* Sets the font size of the text on the right */
 .block6TopBox p {
   font-size: 18px;
 }
 
+/* makes the sqiggle go under the text */
 .block6TopBoxText {
   display: flex;
   flex-direction: column;
