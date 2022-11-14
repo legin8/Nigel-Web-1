@@ -654,6 +654,7 @@ nav.block1Nav ul li {
   right: -60px;
   rotate: -13deg;
   font-size: 20px;
+  pointer-events: none;
 }
 
 /* This makes the circle spin */
@@ -672,9 +673,16 @@ nav.block1Nav ul li {
   padding-left: 25px;
 }
 
+/* This is broken because of the pointer-events: none on the .block5StuffInSideCircle block
+Can't get it to work yet, I tried the > but it still didn't work*/
 /* Hover effect for the spinning circle */
-.block5CircleWithStuff:hover .arrow {
+.block5SpinningCircle:hover .arrow {
   padding-left: 30px;
+}
+
+.block5SpinningCircle:hover path{
+  fill: lightgray;
+
 }
 
 /* This is for the text below the picture with the spinning circle */
