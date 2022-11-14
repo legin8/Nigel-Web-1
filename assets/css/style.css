@@ -781,33 +781,42 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 
 
-/* Start of main boxes */
+/* Main boxes of block 6, sets the grid and the height */
 .block6MainBlock {
   display: grid;
-  grid-template-columns: 7% 86% 7%;
+  grid-template-columns: 120px 1fr 120px;
+  height: 95vh;
 }
 
+/* Makes the border at the bottom and the right */
 .block6Part1,
 .block6Part2 {
-  border-bottom: var(--main-color) solid 1px;
-  border-right: var(--main-color) solid 1px;
+  border-bottom: var(--blue-border);
+  border-right: var(--blue-border);
 }
 
-
+/* makes the second block hidden as default */
 .block6Part2 {
   display: none;
 }
 
 
 .block6VerticalBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   direction: rtl;
   transform: rotateZ(180deg);
-  font-size: 30px;
   padding: 60px 10px;
   border-left: var(--main-color) solid 1px;
   border-top: var(--main-color) solid 1px;
+}
+
+.block6VerticalBlock h2 {
+  font-weight: 100;
+  font-size: 30px;
 }
 
 /* picture in main left grid with padding */
