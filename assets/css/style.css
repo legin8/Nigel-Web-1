@@ -652,7 +652,7 @@ nav.block1Nav ul li {
   position: relative;
   bottom: 180px;
   right: -60px;
-  rotate: -15deg;
+  rotate: -13deg;
   font-size: 20px;
 }
 
@@ -661,35 +661,42 @@ nav.block1Nav ul li {
   animation: rotation 15s infinite linear;
 }
 
-
-
+/* This makes the spinning circle with the content, show on the screen */
 .block5Circle {
   display: flex;
   justify-content: flex-end;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* This positions the arrow */
 .arrow {
-  width: 2%;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
+/* Hover effect for the spinning circle */
+.block5CircleWithStuff:hover .arrow {
+  padding-left: 30px;
+}
+
+/* This is for the text below the picture with the spinning circle */
 .block5Text {
-  text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  justify-content: center;
+  padding-left: 20%;
+  padding-top: 20px;
 }
 
-.block5Heading {
-  font-size: 50px;
+/* Sets the styles for the heading under the picture */
+.block5Heading h2 {
+  font-size: 70px;
+  font-weight: 100;
+}
+
+/* Sets the width and size of the bottom text */
+.block5Text p {
+  font-size: 18px;
+  width: 650px;
 }
 
 
