@@ -7,3 +7,5 @@ This project uses the api from unsplash.com, https://api.unsplash.com
 
 Known Bugs:
 In block 5 the hover effect that makes the arrow move is broken because of the pointer-events: none; on the Div it's inside, I tried putting it outside of the div but still had the same problem.
+
+No markdown has been used in this Readme as I haven't been taught it.

@@ -680,6 +680,7 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   padding-left: 30px;
 }
 
+/* This changes the fill of the svg spinning circle */
 .block5SpinningCircle:hover path{
   fill: lightgray;
 
@@ -715,35 +716,65 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 
 /* Start of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* This sets the background color for block 6 */
+.block6 {
+  background-color: aliceblue;
+}
 
+/* This styles the top box of block 6 */
 .block6TopBox {
-  border-top: var(--main-color) solid 1px;
-  border-bottom: var(--main-color) solid 1px;
+  border-top: var(--blue-border);
+  border-bottom: var(--blue-border);
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  height: 250px;
 }
 
-.block6TopBoxHeader1 {
-  width: 50%;
-}
-
-.block6TopBoxHeader2 a {
+/* This makes the arrow go next to the text */
+.block6TextWithArrow {
   display: flex;
-  flex-direction: row;
 }
 
+
+/* Sets the size of the arrow next to the text and adds space between them */
 .block6Arrow {
-  width: 10%;
+  width: 15px;
+  padding-left: 5px;
 }
 
+/* Styles the heading text on the left of the box */
 .block6TopBox h4 {
   font-size: 28px;
+  font-weight: 200;
+  font-size: 32px;
+  text-align: left;
+  width: 700px;
 }
 
-.block6TopBox h5 {
+.sqiggleRow2 {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+
+.secondSqiggleBlock {
+  width: 230px;
+  overflow: hidden;
+}
+
+.block6TopBox p {
   font-size: 18px;
 }
+
+.block6TopBoxText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 
 
 
