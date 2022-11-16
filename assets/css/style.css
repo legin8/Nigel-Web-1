@@ -775,12 +775,6 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   flex-direction: column;
 }
 
-
-
-
-
-
-
 /* Main boxes of block 6, sets the grid and the height */
 .block6MainBlock {
   display: grid;
@@ -788,7 +782,7 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   height: 95vh;
 }
 
-/* Makes the border at the bottom and the right */
+/* Makes the border at the bottom and the right of the main block*/
 .block6Part1,
 .block6Part2 {
   border-bottom: var(--blue-border);
@@ -800,20 +794,18 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   display: none;
 }
 
-
+/* This makes the 2 vertical blocks text display */
 .block6VerticalBlock {
   display: flex;
   justify-content: center;
   align-items: center;
   writing-mode: vertical-rl;
-  text-orientation: sideways;
-  direction: rtl;
   transform: rotateZ(180deg);
-  padding: 60px 10px;
-  border-left: var(--main-color) solid 1px;
-  border-top: var(--main-color) solid 1px;
+  border-left: var(--blue-border);
+  border-top: var(--blue-border);
 }
 
+/* This sets the size and weight of the h2 inside the vertical blocks */
 .block6VerticalBlock h2 {
   font-weight: 100;
   font-size: 30px;
@@ -827,22 +819,12 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   padding: 50px 60px;
 }
 
-.b6f {
-  display: flex;
-}
-
 /* box next to picture in grid */
 .block6GridApartB,
 .block6GridBpartB {
   padding-left: 30px;
   margin: 0px;
 }
-
-
-
-
-
-
 /* End of Block 6 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
