@@ -841,13 +841,13 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 /* line between left and right column */
 .block7Box1 {
-  border-right: var(--main-color) 1px solid;
+  border-right: var(--blue-border);
   padding: 60px;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
 
-/* the birdy */
+/* the birdy left side of the screen */
 .block7Birdy {
   width: 70%;
   position: relative;
@@ -855,9 +855,9 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   left: -120px;
 }
 
-/* just for the arrow in block 7 */
+/* just for the arrows in block 7 on the right, hidden until hover */
 .block7Arrow {
-  width: 12%;
+  width: 60px;
   display: none;
 }
 
@@ -865,25 +865,22 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 /* Arrow 1 */
 .b7B1:hover .b7Arrow1 {
   display: block;
-  transition: 0.5s;
 }
 
 /* Arrow 2 */
 .b7B2:hover .b7Arrow2 {
   display: block;
-  transition: 0.5s;
 }
 
 /* Arrow 3 */
 .b7B3:hover .b7Arrow3 {
   display: block;
-  transition: 0.5s;
 }
 
-/* middle box on the right column */
+/* middle box on the right column, makes the border lines*/
 .block7Box3 {
-  border-top: var(--main-color) 1px solid;
-  border-bottom: var(--main-color) 1px solid;
+  border-top: var(--blue-border);
+  border-bottom: var(--blue-border);
 }
 
 /* each box in right column */
@@ -894,20 +891,11 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 }
 
+/* moves the hidden arrows to the right */
 .block7RightArrowDiv {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
-
-
-
-
-
-
-
-
-
 /* End of Block 7 !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -916,14 +904,6 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 
 /* Start of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-
-
-
-
-
-
-
 /* main grid of block 8 */
 .block8Main {
   display: grid;
