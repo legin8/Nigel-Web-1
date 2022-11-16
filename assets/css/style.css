@@ -847,11 +847,23 @@ Can't get it to work yet, I tried the > but it still didn't work*/
   grid-template-rows: 1fr 1fr;
 }
 
+/* Sets the size of the top text */
+.block7Box1 h4 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/* Sets the size of the text under the h4 */
+.block7Box1 p {
+  font-size: 18px;
+}
+
+
 /* the birdy left side of the screen */
 .block7Birdy {
-  width: 70%;
+  width: 370px;
   position: relative;
-  bottom: -180px;
+  bottom: -200px;
   left: -120px;
 }
 
@@ -904,29 +916,37 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 
 /* Start of Block 8 !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 /* main grid of block 8 */
 .block8Main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  border-top: var(--main-color) solid 1px;
+  border-top: var(--blue-border);
   padding-top: 70px;
 }
 
 /* block 8 leftColumn */
 .block8leftColumn {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 200px 2fr 1fr;
   padding-left: 18%;
+  width: 500px;
+  margin-left: auto;
 }
 
-
+/* sets the size of the 2 pictures */
+.block8PictureDiv {
+  width: 500px;
+  height: 350px;
+}
 
 /* block 8 rightColumn */
 .block8rightColumn {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 200px 2fr 1fr;
   padding-right: 20%;
+  width: 500px;
 }
 
 /* block 8 Heading */
