@@ -35,12 +35,12 @@ document.querySelector(".clickAwayTargetBox").addEventListener("click", e => {
 document.querySelector(".blockB").addEventListener("click", e => {
   document.querySelector(".block6Part1").style.display = "none";
   document.querySelector(".block6Part2").style.display = "block";
-  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "7% 7% 86%";
+  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "120px 120px 1fr";
 });
 
 // This show the first block
 document.querySelector(".blockA").addEventListener("click", e => {
   document.querySelector(".block6Part1").style.display = "block";
   document.querySelector(".block6Part2").style.display = "none";
-  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "7% 86% 7%";
+  document.querySelector(".block6MainBlock").style.gridTemplateColumns = "120px 1fr 120px";
 });
