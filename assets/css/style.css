@@ -5,6 +5,7 @@
   --blue-border: var(--main-color) solid 1px;
   --block4-buttons: lightgray solid 1px;
   --white: white;
+  --white-border: var(--white) solid 1px;
 }
 
 /* This fixes the image and centers it Used through out the page*/
@@ -975,7 +976,7 @@ Can't get it to work yet, I tried the > but it still didn't work*/
 
 /* block 8 button */
 .block8Button {
-  border: var(--main-color) 1px solid;
+  border: var(--blue-border);
   padding: 20px;
 }
 
@@ -1008,7 +1009,7 @@ footer {
 .footerLeftColumn {
   display: flex;
   flex-direction: column;
-  border-right: white 1px solid;
+  border-right: var(--white-border);
 }
 
 /* this sets each level of the child of footerLeft to be flex in a row */
@@ -1021,27 +1022,27 @@ footer {
 
 /* sets this block of left column to grid and makes it 2 columns */
 .footerLeftColumnLevel1 {
-  border-bottom: white solid 1px;
+  border-bottom: var(--white-border);
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
 /* sets the second level of left column bottom boarder and makes it grid */
 .footerLeftColumnLevel2 {
-  border-bottom: white solid 1px;
+  border-bottom: var(--white-border);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* sets boarder on left side */
 .footerBorderLeft {
-  border-left: white solid 1px;
+  border-left: var(--white-border);
 }
 
 /* sets text color to white */
 .whiteText,
 .whiteText a {
-  color: white;
+  color: var(--white);
 }
 
 /* sets padding for the left column blocks */
@@ -1090,7 +1091,7 @@ footer {
 .footerRightBlock1 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  border-right: white 1px solid;
+  border-right:  var(--white-border);
 }
 
 /* make each box on right column flex and centers content */
@@ -1102,8 +1103,8 @@ footer {
 
 /* sets the borders between the boxes on the right column */
 .footerRightFirstblockMiddle {
-  border-top: white 1px solid;
-  border-bottom: white 1px solid;
+  border-top:  var(--white-border);
+  border-bottom: var(--white-border);
 }
 
 /* footer right column second block */
